@@ -37,6 +37,12 @@ The following games have been confirmed through web research (articles, fan list
 | 13 | **The Mortuary Assistant** | Paranormal horror / simulation | Played | Confirmed on Benable list. Mortuary tasks with demonic possession and unpredictable scares. |
 | 14 | **The Wolf Among Us** | Dark fantasy / noir mystery | Played | Confirmed on Benable list. Interactive mystery based on Fables comics. |
 | 15 | **The Callisto Protocol** | Sci-fi body horror | Full Playthrough | Confirmed on Benable list and TV Tropes forum. Space prison survival horror. |
+| 16 | **Visage** | Psychological horror (P.T.-inspired) | Full Playthrough | Video title: "NO GAME SHOULD EVER BE THIS SCARY \| Visage" (~933K views). |
+| 17 | **Silent Hill 2 Remake** | Psychological survival horror | Played | Praised on X/Twitter: "f*kng amazing. 10/..." |
+| 18 | **Resident Evil 4 Remake** (+ Separate Ways DLC) | Survival horror / action | Completed | Tweeted "FINISHED Resident Evil 4 Remake Seperate Ways DLC" (Sept 2023). |
+| 19 | **Unreal PT** (P.T. fan recreation) | Psychological horror | Played | Video: "Playing this game was a mistake.." (~25 min). Called it "The Scariest game I have ever played in 2019." |
+| 20 | **FNAF VR: Help Wanted** | Jump scare / animatronic horror | Played | Played with nephew; tweeted about experience. |
+| 21 | **Hellmart** | Survival horror / indie | Full Game | Video: "I Spent 7 Days in HELLMART.." Convenience store survival horror. |
 
 ### Tier 2: Confirmed via TV Tropes Fan Recommendation (attributed to HollowPoiint and/or CoryxKenshin)
 
@@ -44,27 +50,27 @@ These games were listed in a TV Tropes forum post by a viewer who watched playth
 
 | # | Game Title | Horror Type | Notes |
 |---|-----------|-------------|-------|
-| 16 | **Tattletail** | Mascot horror, jump scares | Christmas 1998 setting; Mama Tattletail hunts you. |
-| 17 | **Granny** | Escape-room survival horror | Stealth horror, escaping a house. |
-| 18 | **Dark Deception** | Action horror, maze runner | Fast-paced maze horror with monsters. |
-| 19 | **Choo-Choo Charles** | Open-world horror | Spider-train monster hybrid. |
-| 20 | **Nun Massacre** | Slasher horror (PS1-style) | Puppet Combo title; retro slasher. |
-| 21 | **Bloodwash** | Slasher horror (PS1-style) | Puppet Combo/Jordan King; laundromat slasher. |
-| 22 | **Poppy Playtime** | Mascot horror, puzzle | Factory escape with Huggy Wuggy. |
-| 23 | **Trenches** | War/horror | WWI trench horror setting. |
-| 24 | **Amanda the Adventurer** | Psychological horror, indie | Creepy children's TV show mystery. |
-| 25 | **Silver Chains** | Supernatural horror | Haunted mansion, first-person exploration. |
-| 26 | **Crimson Snow** | Supernatural horror | Christmas horror; demonic ex-girlfriend. |
-| 27 | **Scrutinized** | Thriller/horror | Surveillance and investigation horror. |
-| 28 | **The Beast Inside** | Psychological horror | Dual-timeline thriller with puzzles. |
-| 29 | **Do You Copy?** | Indie horror | Fire lookout tower horror. |
-| 30 | **Home Sweet Home** | Thai supernatural horror | First-person stealth horror based on Thai folklore. |
-| 31 | **The Radio Station** | Indie horror | Short-form atmospheric horror. |
-| 32 | **House on the Hill** | Horror | Exploration-based horror. |
-| 33 | **Twelve Minutes** | Psychological thriller | Time-loop mystery thriller (horror-adjacent). |
-| 34 | **Firewatch** | Mystery/thriller | Atmospheric mystery (horror-adjacent; psychological tension). |
-| 35 | **What Remains of Edith Finch** | Dark narrative / walking simulator | Death-themed family mystery (horror-adjacent). |
-| 36 | **The Vanishing of Ethan Carter** | Mystery / supernatural | Paranormal detective walking simulator. |
+| 22 | **Tattletail** | Mascot horror, jump scares | Christmas 1998 setting; Mama Tattletail hunts you. |
+| 23 | **Granny** | Escape-room survival horror | Stealth horror, escaping a house. |
+| 24 | **Dark Deception** | Action horror, maze runner | Fast-paced maze horror with monsters. |
+| 25 | **Choo-Choo Charles** | Open-world horror | Spider-train monster hybrid. |
+| 26 | **Nun Massacre** | Slasher horror (PS1-style) | Puppet Combo title; retro slasher. |
+| 27 | **Bloodwash** | Slasher horror (PS1-style) | Puppet Combo/Jordan King; laundromat slasher. |
+| 28 | **Poppy Playtime** | Mascot horror, puzzle | Factory escape with Huggy Wuggy. |
+| 29 | **Trenches** | War/horror | WWI trench horror setting. |
+| 30 | **Amanda the Adventurer** | Psychological horror, indie | Creepy children's TV show mystery. |
+| 31 | **Silver Chains** | Supernatural horror | Haunted mansion, first-person exploration. |
+| 32 | **Crimson Snow** | Supernatural horror | Christmas horror; demonic ex-girlfriend. |
+| 33 | **Scrutinized** | Thriller/horror | Surveillance and investigation horror. |
+| 34 | **The Beast Inside** | Psychological horror | Dual-timeline thriller with puzzles. |
+| 35 | **Do You Copy?** | Indie horror | Fire lookout tower horror. |
+| 36 | **Home Sweet Home** | Thai supernatural horror | First-person stealth horror based on Thai folklore. |
+| 37 | **The Radio Station** | Indie horror | Short-form atmospheric horror. |
+| 38 | **House on the Hill** | Horror | Exploration-based horror. |
+| 39 | **Twelve Minutes** | Psychological thriller | Time-loop mystery thriller (horror-adjacent). |
+| 40 | **Firewatch** | Mystery/thriller | Atmospheric mystery (horror-adjacent; psychological tension). |
+| 41 | **What Remains of Edith Finch** | Dark narrative / walking simulator | Death-themed family mystery (horror-adjacent). |
+| 42 | **The Vanishing of Ethan Carter** | Mystery / supernatural | Paranormal detective walking simulator. |
 
 ### Tier 3: Strongly Implied from Benable List Descriptions (unnamed but described)
 
@@ -72,14 +78,14 @@ The Benable list "Horror Games Played By Youtuber Hollow" contained descriptions
 
 | # | Description from Benable | Likely Game | Horror Type |
 |---|-------------------------|-------------|-------------|
-| 37 | "An intense horror game of 2025, based on an isolated oil rig gradually collapsing after a gruesome discovery below" | **Still Wakes the Deep** (released June 2024, oil rig horror) | Cosmic/survival horror |
-| 38 | "An episodic psychological horror series inspired by true events, low-poly throwback graphical style" | **Fears to Fathom** (episodic, true-event-based, low-poly) | Psychological horror |
-| 39 | "A recent indie horror game, worker on the night shift, mounting sense of paranoia, mundane tasks" | **The Night Shift** or **Night Shift** (Puppet Combo) | Indie horror |
-| 40 | "An AI realtor guides you through a virtual open house, '90s-style interface, uncanny dread" | **Open House** (or similar short exploration horror) | Exploration horror |
-| 41 | "A fairytale psychological horror, disturbingly beautiful graphics, varying creatures" | **Little Nightmares** or **Fobia** or similar | Fairytale psychological horror |
-| 42 | "A Backrooms game, first-person view, claustrophobic and disorienting environment" | **The Backrooms** (one of several Backrooms games) | Liminal space horror |
-| 43 | "A brilliant first-person survival horror, surviving horrifying events using limited resources" | **Outlast 2** or **Alien: Isolation** or similar | First-person survival horror |
-| 44 | "A space prison survival horror game, viral outbreak, body horror" | **The Callisto Protocol** (confirmed separately) | Sci-fi body horror |
+| 43 | "An intense horror game of 2025, based on an isolated oil rig gradually collapsing after a gruesome discovery below" | **Still Wakes the Deep** (released June 2024, oil rig horror) | Cosmic/survival horror |
+| 44 | "An episodic psychological horror series inspired by true events, low-poly throwback graphical style" | **Fears to Fathom** (episodic, true-event-based, low-poly) | Psychological horror |
+| 45 | "A recent indie horror game, worker on the night shift, mounting sense of paranoia, mundane tasks" | **The Night Shift** or **Night Shift** (Puppet Combo) | Indie horror |
+| 46 | "An AI realtor guides you through a virtual open house, '90s-style interface, uncanny dread" | **Open House** (or similar short exploration horror) | Exploration horror |
+| 47 | "A fairytale psychological horror, disturbingly beautiful graphics, varying creatures" | **Little Nightmares** or **Fobia** or similar | Fairytale psychological horror |
+| 48 | "A Backrooms game, first-person view, claustrophobic and disorienting environment" | **The Backrooms** (one of several Backrooms games) | Liminal space horror |
+| 49 | "A brilliant first-person survival horror, surviving horrifying events using limited resources" | **Outlast 2** or **Alien: Isolation** or similar | First-person survival horror |
+| 50 | "A space prison survival horror game, viral outbreak, body horror" | **The Callisto Protocol** (confirmed separately) | Sci-fi body horror |
 
 ### Additional Referenced/Likely Horror Content
 
@@ -97,8 +103,8 @@ Based on HollowPoiint being described as a prolific horror game player with 6,70
 
 ## Summary Statistics
 
-- **Total confirmed horror/horror-adjacent games**: 44+ titles
-- **Full playthroughs confirmed**: At least 15
+- **Total confirmed horror/horror-adjacent games**: 50+ titles
+- **Full playthroughs confirmed**: At least 21
 - **Horror subgenres covered**: Psychological horror, survival horror, sci-fi horror, slasher horror, mascot horror, supernatural horror, body horror, cosmic horror, Gothic horror, stealth horror, indie/experimental horror
 - **Most-viewed horror video**: "I'm never playing this game again.." (~8M views, posted June 20, 2018)
 - **Content style**: Thorough walkthroughs, typically full games, with live reactions and commentary
@@ -126,6 +132,11 @@ This list was compiled on March 29, 2026 using the following web search strategi
 - [Tubefilter - Creators Going Pro](https://www.tubefilter.com/2019/03/06/creators-going-pro-hollow/)
 - [FresherPost - HollowPoiint Bio](https://fresherpost.com/hollowpoiint/)
 - [Sider.ai - Amenti Video Summary](https://sider.ai/create/video/ai-video-shortener/explore/4fb2761f-7efd-411d-b979-c214b3ca3a82)
+- [HollowPoiint on X/Twitter - RE4 Separate Ways](https://twitter.com/HollowPoiint/status/1705216315613438323)
+- [HollowPoiint on X/Twitter - Silent Hill 2 Remake](https://x.com/HollowPoiint/status/1842964155898454355)
+- [HollowPoiint on X/Twitter - FNAF VR](https://x.com/hollowpoiint/status/1134844675322449921)
+- [Twin Galaxies - Hellmart](https://www.twingalaxies.com/newsDetails/6334)
+- [Famous Birthdays - HollowPoiint](https://www.famousbirthdays.com/people/hollowpoiint.html)
 
 -----
 
@@ -143,4 +154,4 @@ This list was compiled on March 29, 2026 using the following web search strategi
 
 March 29, 2026
 
-**Status**: PARTIAL - Contains 44+ confirmed/strongly implied titles. Full channel audit would likely reveal many more.
+**Status**: PARTIAL - Contains 50+ confirmed/strongly implied titles. Full channel audit via scraper would likely reveal many more.
