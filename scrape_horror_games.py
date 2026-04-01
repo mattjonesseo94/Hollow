@@ -1,38 +1,41 @@
 #!/usr/bin/env python3
 """
-Scrape HollowPoiint's YouTube channel for horror game videos.
+HollowPoiint Horror Games Scraper - Deep Analysis Pipeline
 
-Two methods available:
-  1. scrapetube (no API key needed, but may be blocked in some environments)
-  2. YouTube Data API v3 (requires a free API key from Google Cloud Console)
+3-layer detection:
+  Layer 1: Title/description keyword matching (fast, free)
+  Layer 2: YouTube auto-captions analysis (medium, free via yt-dlp)
+  Layer 3: AI classification via Claude API (slow, paid - optional)
+
+Requirements:
+  pip install scrapetube yt-dlp anthropic
 
 Usage:
-  # Method 1: scrapetube (default, no setup needed)
+  # Layer 1 only (keyword matching on titles/descriptions)
   python3 scrape_horror_games.py
 
-  # Method 2: YouTube Data API (more reliable, needs API key)
-  python3 scrape_horror_games.py --api-key YOUR_API_KEY
+  # Layer 1 + 2 (also pull captions for ambiguous videos)
+  python3 scrape_horror_games.py --deep
 
-  # Get a free API key:
-  #   1. Go to https://console.cloud.google.com/
-  #   2. Create a project (or use existing)
-  #   3. Enable "YouTube Data API v3"
-  #   4. Create credentials -> API key
-  #   5. Free tier: 10,000 quota units/day (~100 list requests)
+  # Layer 1 + 2 + 3 (also use Claude AI to classify unknowns)
+  python3 scrape_horror_games.py --deep --anthropic-key sk-ant-...
 
-Output:
-  - horror_games_data.json    (full structured data)
-  - horror_games_report.md    (readable markdown report)
+  # Use YouTube Data API instead of scrapetube
+  python3 scrape_horror_games.py --deep --yt-api-key YOUR_KEY
 """
 
 import argparse
 import json
+import os
 import re
+import subprocess
 import sys
+import time
 from collections import defaultdict
+from pathlib import Path
 
 # ---------------------------------------------------------------------------
-# Horror keyword detection
+# Horror keyword detection (Layer 1)
 # ---------------------------------------------------------------------------
 
 HORROR_KEYWORDS = [
@@ -40,12 +43,12 @@ HORROR_KEYWORDS = [
     "horror", "scary", "terrifying", "creepy", "haunted", "nightmare",
     "jump scare", "jumpscare", "frightening", "spooky", "disturbing",
     "demon", "paranormal", "possessed", "exorcis",
-    # Confirmed games (from research)
+    # Confirmed HollowPoiint horror games
     "madison", "reveil", "outlast", "resident evil", "biohazard",
     "silent hill", "dead space", "amnesia", "until dawn", "visage",
     "phasmophobia", "poppy playtime", "fnaf", "five nights at freddy",
     "bendy and the ink machine", "granny", "little nightmares",
-    "the evil within", "evil within", "alien isolation", "alien: isolation",
+    "the evil within", "evil within", "alien isolation",
     "the forest", "sons of the forest", "the quarry", "layers of fear",
     "blair witch", "alan wake", "callisto protocol", "scorn",
     "lethal company", "devour", "dark pictures", "man of medan",
@@ -58,12 +61,12 @@ HORROR_KEYWORDS = [
     "puppet combo", "chilla's art", "chillas art",
     "backrooms", "slender", "scp",
     "signalis", "fatal frame", "dredge",
-    "the texas chain saw", "texas chainsaw",
+    "texas chain saw", "texas chainsaw",
     "dead island", "condemned", "cry of fear",
     "penumbra", "detention", "devotion", "mundaun",
     "infliction", "luto", "the bridge curse",
     "content warning", "darkwood",
-    "tattletail", "dark deception", "choo-choo charles", "choo choo charles",
+    "tattletail", "dark deception", "choo-choo charles",
     "nun massacre", "bloodwash", "trenches", "amanda the adventurer",
     "silver chains", "crimson snow", "scrutinized", "beast inside",
     "do you copy", "home sweet home", "amenti",
@@ -71,6 +74,7 @@ HORROR_KEYWORDS = [
     "wolf among us", "still wakes the deep",
     "case records", "fear of abduction",
     "re7", "re8", "re4", "re2",
+    "hellmart", "unreal pt",
 ]
 
 HORROR_PATTERN = re.compile(
@@ -78,16 +82,33 @@ HORROR_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+# Titles that suggest horror but don't name the game
+CLICKBAIT_PATTERNS = [
+    r"never playing this",
+    r"scariest game",
+    r"don'?t play this",
+    r"this game broke me",
+    r"i couldn'?t finish",
+    r"most terrifying",
+    r"i regret playing",
+    r"this game is cursed",
+    r"scared me",
+    r"can'?t sleep",
+    r"nightmare fuel",
+]
+CLICKBAIT_RE = re.compile("|".join(CLICKBAIT_PATTERNS), re.IGNORECASE)
 
-def find_horror_keywords(text: str) -> list[str]:
-    """Return deduplicated list of horror keywords found in text."""
+
+def find_horror_keywords(text):
     return list(set(HORROR_PATTERN.findall(text.lower())))
 
 
-def extract_game_name(title: str) -> str:
-    """Best-effort extraction of game name from a video title."""
+def is_clickbait_horror(title):
+    return bool(CLICKBAIT_RE.search(title))
+
+
+def extract_game_name(title):
     game = title
-    # Common separators between game name and episode/part info
     for sep in [" - ", " | ", " Part ", " part ", " Ep.", " Ep ",
                 " Episode ", " episode ", " Walkthrough", " walkthrough",
                 " Gameplay", " gameplay", " Full Game", " FULL GAME",
@@ -95,22 +116,139 @@ def extract_game_name(title: str) -> str:
                 " Chapter ", " chapter ", " #", " (FULL", " (Full"]:
         if sep in game:
             game = game.split(sep)[0]
-    # Remove trailing punctuation
-    game = game.strip().rstrip(".-!|:")
-    return game.strip()
+    return game.strip().rstrip(".-!|:")
 
 
 # ---------------------------------------------------------------------------
-# Method 1: scrapetube
+# Layer 2: Caption/subtitle extraction via yt-dlp
 # ---------------------------------------------------------------------------
 
-def scrape_with_scrapetube(channel_url: str) -> list[dict]:
-    """Scrape all videos using scrapetube (no API key needed)."""
+def fetch_captions(video_id, cache_dir="caption_cache"):
+    """Download auto-generated captions for a video. Returns text or None."""
+    os.makedirs(cache_dir, exist_ok=True)
+    cache_file = Path(cache_dir) / f"{video_id}.txt"
+
+    if cache_file.exists():
+        return cache_file.read_text()
+
+    try:
+        result = subprocess.run(
+            [
+                "yt-dlp",
+                "--skip-download",
+                "--write-auto-sub",
+                "--sub-lang", "en",
+                "--sub-format", "vtt",
+                "--output", str(Path(cache_dir) / "%(id)s"),
+                f"https://youtube.com/watch?v={video_id}",
+            ],
+            capture_output=True, text=True, timeout=30,
+        )
+
+        vtt_file = Path(cache_dir) / f"{video_id}.en.vtt"
+        if vtt_file.exists():
+            raw = vtt_file.read_text()
+            # Strip VTT formatting, keep just the text
+            lines = []
+            for line in raw.split("\n"):
+                line = line.strip()
+                if not line or line.startswith("WEBVTT") or "-->" in line:
+                    continue
+                if line.startswith("<"):
+                    continue
+                # Remove VTT tags
+                clean = re.sub(r"<[^>]+>", "", line)
+                if clean and clean not in lines[-1:]:
+                    lines.append(clean)
+            text = " ".join(lines)
+            cache_file.write_text(text)
+            vtt_file.unlink()
+            return text
+    except (subprocess.TimeoutExpired, FileNotFoundError):
+        pass
+
+    # Write empty cache to avoid re-trying
+    cache_file.write_text("")
+    return None
+
+
+def analyze_captions_for_game(captions, title):
+    """Search captions for game name mentions. Returns best guess or None."""
+    if not captions:
+        return None
+
+    # Common patterns: "welcome back to [game]", "playing [game]", etc.
+    intro_patterns = [
+        r"(?:welcome back to|playing|let'?s play|this is|today we'?re playing|we'?re playing)\s+([A-Z][A-Za-z0-9: '\-]+)",
+        r"(?:this game is called|the game is)\s+([A-Z][A-Za-z0-9: '\-]+)",
+    ]
+
+    for pattern in intro_patterns:
+        match = re.search(pattern, captions[:2000])  # Check first ~2 mins
+        if match:
+            game = match.group(1).strip().rstrip(".,!")
+            if len(game) > 3 and game.lower() not in ("this", "the", "that", "a"):
+                return game
+
+    # Also check for horror keywords in captions
+    kws = find_horror_keywords(captions[:5000])
+    if kws:
+        return None  # Has horror keywords but couldn't extract game name
+
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Layer 3: AI classification via Claude API
+# ---------------------------------------------------------------------------
+
+def classify_with_claude(video_info, captions_snippet, api_key):
+    """Use Claude to identify the game and classify horror content."""
+    try:
+        import anthropic
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "anthropic", "-q"])
+        import anthropic
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    prompt = f"""Analyze this YouTube gaming video and identify:
+1. The video game being played (exact title)
+2. Whether it's a horror game (yes/no/partial)
+3. The horror subgenre if applicable
+
+Video title: {video_info['title']}
+Video description: {video_info.get('description', 'N/A')}
+Caption excerpt (first 1500 chars): {(captions_snippet or 'No captions available')[:1500]}
+
+Respond in JSON format:
+{{"game_title": "...", "is_horror": true/false, "horror_type": "...", "confidence": "high/medium/low"}}"""
+
+    try:
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=200,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = response.content[0].text
+        # Extract JSON from response
+        json_match = re.search(r"\{[^}]+\}", text)
+        if json_match:
+            return json.loads(json_match.group())
+    except Exception as e:
+        print(f"    Claude API error: {e}")
+
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Video fetching (scrapetube or YouTube API)
+# ---------------------------------------------------------------------------
+
+def scrape_with_scrapetube(channel_url):
     try:
         import scrapetube
     except ImportError:
-        print("Installing scrapetube...")
-        import subprocess
         subprocess.check_call([sys.executable, "-m", "pip", "install", "scrapetube", "-q"])
         import scrapetube
 
@@ -120,8 +258,6 @@ def scrape_with_scrapetube(channel_url: str) -> list[dict]:
     videos = []
     for i, raw in enumerate(scrapetube.get_channel(channel_url=channel_url)):
         vid_id = raw.get("videoId", "")
-
-        # Extract title
         title = raw.get("title", {})
         if isinstance(title, dict):
             title = title.get("runs", [{}])[0].get("text", "")
@@ -130,124 +266,73 @@ def scrape_with_scrapetube(channel_url: str) -> list[dict]:
         else:
             title = str(title)
 
-        # Duration
         dur = raw.get("lengthText", {})
         duration = dur.get("simpleText", "") if isinstance(dur, dict) else str(dur)
-
-        # Views
         vc = raw.get("viewCountText", {})
         views = vc.get("simpleText", "") if isinstance(vc, dict) else str(vc)
-
-        # Published
         pt = raw.get("publishedTimeText", {})
         published = pt.get("simpleText", "") if isinstance(pt, dict) else str(pt)
-
-        # Description snippet
         desc = raw.get("descriptionSnippet", {})
+        description = ""
         if isinstance(desc, dict):
             description = " ".join(r.get("text", "") for r in desc.get("runs", []))
-        else:
-            description = ""
 
         videos.append({
-            "id": vid_id,
-            "title": title,
+            "id": vid_id, "title": title,
             "url": f"https://youtube.com/watch?v={vid_id}",
-            "duration": duration,
-            "views": views,
-            "published": published,
-            "description": description,
+            "duration": duration, "views": views,
+            "published": published, "description": description,
         })
-
         if (i + 1) % 500 == 0:
             print(f"  ...scanned {i + 1} videos")
 
     return videos
 
 
-# ---------------------------------------------------------------------------
-# Method 2: YouTube Data API v3
-# ---------------------------------------------------------------------------
-
-def scrape_with_api(api_key: str, channel_handle: str = "hollowpoiint") -> list[dict]:
-    """Scrape all videos using YouTube Data API v3."""
+def scrape_with_api(api_key, channel_handle="hollowpoiint"):
     import requests
-
     BASE = "https://www.googleapis.com/youtube/v3"
 
-    # Step 1: Resolve channel handle to channel ID
     print(f"Resolving @{channel_handle}...")
     resp = requests.get(f"{BASE}/channels", params={
-        "forHandle": channel_handle,
-        "part": "contentDetails,snippet",
-        "key": api_key,
+        "forHandle": channel_handle, "part": "contentDetails,snippet", "key": api_key,
     })
     resp.raise_for_status()
     items = resp.json().get("items", [])
     if not items:
-        # Try search fallback
-        resp = requests.get(f"{BASE}/search", params={
-            "q": channel_handle,
-            "type": "channel",
-            "part": "snippet",
-            "maxResults": 1,
-            "key": api_key,
-        })
-        resp.raise_for_status()
-        items = resp.json().get("items", [])
-        if not items:
-            print("ERROR: Could not find channel. Check the handle.")
-            sys.exit(1)
-        channel_id = items[0]["snippet"]["channelId"]
-    else:
-        channel_id = items[0]["id"]
+        print("ERROR: Could not find channel.")
+        sys.exit(1)
 
     uploads_playlist = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
-    channel_title = items[0]["snippet"]["title"]
-    print(f"Found: {channel_title} ({channel_id})")
+    print(f"Found: {items[0]['snippet']['title']}")
     print(f"Uploads playlist: {uploads_playlist}\n")
 
-    # Step 2: Paginate through all uploads
     videos = []
     next_page = None
-    page = 0
-
     while True:
-        page += 1
         params = {
-            "playlistId": uploads_playlist,
-            "part": "snippet,contentDetails",
-            "maxResults": 50,
-            "key": api_key,
+            "playlistId": uploads_playlist, "part": "snippet,contentDetails",
+            "maxResults": 50, "key": api_key,
         }
         if next_page:
             params["pageToken"] = next_page
-
         resp = requests.get(f"{BASE}/playlistItems", params=params)
         if resp.status_code == 403:
-            print(f"\nAPI quota exceeded after {len(videos)} videos.")
-            print("You can re-run tomorrow (quota resets at midnight PT)")
-            print("or increase your quota in Google Cloud Console.\n")
+            print(f"\nQuota exceeded after {len(videos)} videos. Re-run tomorrow.")
             break
         resp.raise_for_status()
         data = resp.json()
-
         for item in data.get("items", []):
-            snippet = item["snippet"]
-            vid_id = snippet["resourceId"]["videoId"]
+            s = item["snippet"]
+            vid_id = s["resourceId"]["videoId"]
             videos.append({
-                "id": vid_id,
-                "title": snippet.get("title", ""),
+                "id": vid_id, "title": s.get("title", ""),
                 "url": f"https://youtube.com/watch?v={vid_id}",
-                "duration": "",  # Would need separate videos.list call
-                "views": "",
-                "published": snippet.get("publishedAt", ""),
-                "description": snippet.get("description", "")[:300],
+                "duration": "", "views": "",
+                "published": s.get("publishedAt", ""),
+                "description": s.get("description", "")[:500],
             })
-
-        print(f"  Page {page}: fetched {len(data.get('items', []))} videos "
-              f"(total: {len(videos)})")
-
+        print(f"  Fetched {len(videos)} videos...")
         next_page = data.get("nextPageToken")
         if not next_page:
             break
@@ -256,40 +341,181 @@ def scrape_with_api(api_key: str, channel_handle: str = "hollowpoiint") -> list[
 
 
 # ---------------------------------------------------------------------------
-# Analysis & output
+# Main pipeline
 # ---------------------------------------------------------------------------
 
-def analyze_and_output(videos: list[dict]):
-    """Filter for horror content, analyze, and write output files."""
+def main():
+    parser = argparse.ArgumentParser(description="HollowPoiint Horror Games Scraper")
+    parser.add_argument("--yt-api-key", help="YouTube Data API v3 key")
+    parser.add_argument("--anthropic-key", help="Anthropic API key for Layer 3 AI classification")
+    parser.add_argument("--deep", action="store_true",
+                        help="Enable Layer 2: pull captions for ambiguous videos via yt-dlp")
+    parser.add_argument("--channel", default="https://www.youtube.com/@hollowpoiint")
+    parser.add_argument("--resume", help="Resume from a previous horror_games_data.json")
+    args = parser.parse_args()
+
+    print("=" * 60)
+    print("  HollowPoiint Horror Games Scraper")
+    print("  Layer 1: Keyword matching (title + description)")
+    if args.deep:
+        print("  Layer 2: Caption analysis (yt-dlp auto-subs)")
+    if args.anthropic_key:
+        print("  Layer 3: AI classification (Claude Haiku)")
+    print("=" * 60)
+
+    # --- Fetch or resume ---
+    if args.resume and Path(args.resume).exists():
+        print(f"\nResuming from {args.resume}...")
+        with open(args.resume) as f:
+            prev = json.load(f)
+        all_videos = []
+        for g in prev.get("games", []):
+            all_videos.extend(g.get("videos", []))
+        # Also need non-horror videos for deep analysis
+        print(f"  Loaded {len(all_videos)} previously identified horror videos")
+        videos = all_videos
+    else:
+        if args.yt_api_key:
+            videos = scrape_with_api(args.yt_api_key)
+        else:
+            videos = scrape_with_scrapetube(args.channel)
+
+    if not videos:
+        print("No videos found.")
+        sys.exit(1)
+
+    print(f"\nTotal videos: {len(videos)}")
+
+    # --- Layer 1: Keyword matching ---
+    print("\n--- Layer 1: Keyword matching ---")
     horror_videos = []
-    games = defaultdict(list)
+    maybe_horror = []  # Clickbait titles that might be horror
+    non_horror = []
 
     for vid in videos:
         text = f"{vid['title']} {vid.get('description', '')}"
-        keywords = find_horror_keywords(text)
-        if keywords:
-            vid["horror_keywords"] = keywords
+        kws = find_horror_keywords(text)
+        if kws:
+            vid["horror_keywords"] = kws
+            vid["detection"] = "layer1_keywords"
             horror_videos.append(vid)
-            game = extract_game_name(vid["title"])
-            games[game].append(vid)
+        elif is_clickbait_horror(vid["title"]):
+            vid["detection"] = "layer2_candidate"
+            maybe_horror.append(vid)
+        else:
+            non_horror.append(vid)
 
-    # Sort by video count descending
+    print(f"  Confirmed horror (keywords): {len(horror_videos)}")
+    print(f"  Possible horror (clickbait titles): {len(maybe_horror)}")
+    print(f"  Non-horror: {len(non_horror)}")
+
+    # --- Layer 2: Caption analysis ---
+    if args.deep and maybe_horror:
+        print(f"\n--- Layer 2: Analyzing captions for {len(maybe_horror)} ambiguous videos ---")
+        print("  (requires yt-dlp: pip install yt-dlp)")
+
+        for i, vid in enumerate(maybe_horror):
+            print(f"  [{i+1}/{len(maybe_horror)}] {vid['title'][:60]}...")
+            captions = fetch_captions(vid["id"])
+
+            if captions:
+                # Check captions for horror keywords
+                cap_kws = find_horror_keywords(captions[:5000])
+                if cap_kws:
+                    vid["horror_keywords"] = cap_kws
+                    vid["detection"] = "layer2_captions"
+                    horror_videos.append(vid)
+                    print(f"    -> HORROR (caption keywords: {', '.join(cap_kws[:3])})")
+                    continue
+
+                # Try to extract game name from captions
+                game = analyze_captions_for_game(captions, vid["title"])
+                if game:
+                    vid["caption_game_guess"] = game
+                    game_kws = find_horror_keywords(game)
+                    if game_kws:
+                        vid["horror_keywords"] = game_kws
+                        vid["detection"] = "layer2_game_name"
+                        horror_videos.append(vid)
+                        print(f"    -> HORROR (game: {game})")
+                        continue
+
+                vid["_captions_checked"] = True
+                print(f"    -> Not confirmed as horror")
+            else:
+                print(f"    -> No captions available")
+
+            # Rate limit to be polite
+            if (i + 1) % 10 == 0:
+                time.sleep(1)
+
+        print(f"\n  After Layer 2: {len(horror_videos)} horror videos confirmed")
+
+    # --- Layer 3: AI classification ---
+    unclassified = [v for v in maybe_horror if v.get("detection") == "layer2_candidate"]
+    if args.anthropic_key and unclassified:
+        print(f"\n--- Layer 3: AI classifying {len(unclassified)} remaining videos ---")
+        print("  Using Claude Haiku (fast + cheap)")
+
+        for i, vid in enumerate(unclassified):
+            print(f"  [{i+1}/{len(unclassified)}] {vid['title'][:60]}...")
+
+            captions = None
+            if args.deep:
+                captions = fetch_captions(vid["id"])
+
+            result = classify_with_claude(vid, captions, args.anthropic_key)
+            if result:
+                vid["ai_classification"] = result
+                if result.get("is_horror"):
+                    vid["horror_keywords"] = [result.get("horror_type", "horror")]
+                    vid["game_title_ai"] = result.get("game_title", "Unknown")
+                    vid["detection"] = "layer3_ai"
+                    horror_videos.append(vid)
+                    print(f"    -> HORROR: {result.get('game_title')} "
+                          f"({result.get('horror_type')}) "
+                          f"[{result.get('confidence')}]")
+                else:
+                    print(f"    -> Not horror ({result.get('game_title', '?')})")
+            else:
+                print(f"    -> Classification failed")
+
+            # Rate limit
+            time.sleep(0.5)
+
+        print(f"\n  After Layer 3: {len(horror_videos)} horror videos confirmed")
+
+    # --- Output ---
+    games = defaultdict(list)
+    for vid in horror_videos:
+        game = vid.get("game_title_ai") or vid.get("caption_game_guess") or extract_game_name(vid["title"])
+        vid["_game"] = game
+        games[game].append(vid)
+
     sorted_games = sorted(games.items(), key=lambda x: len(x[1]), reverse=True)
 
-    # Console summary
     print("\n" + "=" * 60)
-    print(f"RESULTS: {len(horror_videos)} horror videos found "
-          f"across {len(sorted_games)} unique titles")
-    print(f"(out of {len(videos)} total videos scanned)")
+    print(f"FINAL: {len(horror_videos)} horror videos, "
+          f"{len(sorted_games)} unique titles")
     print("=" * 60)
 
-    for game, vids in sorted_games[:30]:
-        print(f"\n  {game} ({len(vids)} video{'s' if len(vids) != 1 else ''})")
-        print(f"    Keywords: {', '.join(vids[0]['horror_keywords'])}")
-        print(f"    Link: {vids[0]['url']}")
+    # Detection breakdown
+    l1 = sum(1 for v in horror_videos if v.get("detection") == "layer1_keywords")
+    l2 = sum(1 for v in horror_videos if v.get("detection", "").startswith("layer2"))
+    l3 = sum(1 for v in horror_videos if v.get("detection") == "layer3_ai")
+    print(f"\n  Layer 1 (keywords):  {l1} videos")
+    if args.deep:
+        print(f"  Layer 2 (captions):  {l2} videos")
+    if args.anthropic_key:
+        print(f"  Layer 3 (AI):        {l3} videos")
 
-    if len(sorted_games) > 30:
-        print(f"\n  ... and {len(sorted_games) - 30} more titles")
+    for game, vids in sorted_games[:40]:
+        det = vids[0].get("detection", "?")
+        print(f"\n  {game} ({len(vids)} vid{'s' if len(vids)!=1 else ''}) [{det}]")
+        print(f"    {vids[0]['url']}")
+
+    if len(sorted_games) > 40:
+        print(f"\n  ...and {len(sorted_games) - 40} more")
 
     # Save JSON
     output = {
@@ -297,24 +523,26 @@ def analyze_and_output(videos: list[dict]):
         "total_videos_scanned": len(videos),
         "horror_videos_found": len(horror_videos),
         "unique_game_titles": len(sorted_games),
+        "detection_breakdown": {"layer1_keywords": l1, "layer2_captions": l2, "layer3_ai": l3},
         "games": [
             {"title": g, "video_count": len(v), "videos": v}
             for g, v in sorted_games
         ],
     }
     with open("horror_games_data.json", "w") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, indent=2, ensure_ascii=False, default=str)
 
-    # Generate markdown report (separate from the main curated list)
+    # Markdown report
     major = [(g, v) for g, v in sorted_games if len(v) >= 3]
     multi = [(g, v) for g, v in sorted_games if len(v) == 2]
     single = [(g, v) for g, v in sorted_games if len(v) == 1]
 
     with open("horror_games_report.md", "w") as f:
-        f.write("# HollowPoiint Horror Games - Scraped Data\n\n")
+        f.write("# HollowPoiint Horror Games - Scraped Report\n\n")
         f.write(f"**Total Videos Scanned**: {len(videos)}\n")
         f.write(f"**Horror Videos Found**: {len(horror_videos)}\n")
-        f.write(f"**Unique Game Titles**: {len(sorted_games)}\n\n")
+        f.write(f"**Unique Game Titles**: {len(sorted_games)}\n")
+        f.write(f"**Detection**: L1={l1} keywords, L2={l2} captions, L3={l3} AI\n\n")
         f.write("*Auto-generated by `scrape_horror_games.py`*\n\n---\n\n")
 
         def write_section(title, items):
@@ -323,7 +551,8 @@ def analyze_and_output(videos: list[dict]):
             f.write(f"## {title}\n\n")
             for i, (game, vids) in enumerate(items, 1):
                 kws = sorted(set(kw for v in vids for kw in v.get("horror_keywords", [])))
-                f.write(f"{i}. **{game}** ({len(vids)} video{'s' if len(vids) != 1 else ''})\n")
+                det = vids[0].get("detection", "unknown")
+                f.write(f"{i}. **{game}** ({len(vids)} video{'s' if len(vids)!=1 else ''}) `[{det}]`\n")
                 f.write(f"   - Keywords: {', '.join(kws)}\n")
                 f.write(f"   - Latest: [{vids[0]['title']}]({vids[0]['url']})\n")
                 if vids[0].get("views"):
@@ -334,57 +563,8 @@ def analyze_and_output(videos: list[dict]):
         write_section("Multi-Part Content (2 videos)", multi)
         write_section("Single Videos", single)
 
-        f.write("---\n\n")
-        f.write("## Notes\n\n")
-        f.write("- Game titles are best-effort extracted from video titles\n")
-        f.write("- Some entries may be duplicates with slightly different naming\n")
-        f.write("- Some games have horror elements but aren't strictly horror\n")
-        f.write("- Keyword matching may miss videos that don't mention horror "
-                "terms in the title/description\n")
-
-    print(f"\n\nFiles saved:")
-    print(f"  horror_games_data.json   ({len(horror_videos)} videos, full metadata)")
-    print(f"  horror_games_report.md   (readable report)")
-    print("\nDone!")
-
-
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
-
-def main():
-    parser = argparse.ArgumentParser(
-        description="Scrape HollowPoiint's YouTube channel for horror game videos"
-    )
-    parser.add_argument(
-        "--api-key",
-        help="YouTube Data API v3 key (recommended; get one free at "
-             "https://console.cloud.google.com/)",
-    )
-    parser.add_argument(
-        "--channel",
-        default="https://www.youtube.com/@hollowpoiint",
-        help="Channel URL (default: HollowPoiint)",
-    )
-    args = parser.parse_args()
-
-    print("=" * 60)
-    print("  HollowPoiint Horror Games Scraper")
-    print("=" * 60)
-
-    if args.api_key:
-        print("\nUsing YouTube Data API v3")
-        videos = scrape_with_api(args.api_key)
-    else:
-        print("\nUsing scrapetube (no API key)")
-        print("Tip: For more reliable results, use --api-key YOUR_KEY")
-        videos = scrape_with_scrapetube(args.channel)
-
-    if not videos:
-        print("No videos found. Check your connection or API key.")
-        sys.exit(1)
-
-    analyze_and_output(videos)
+    print(f"\nSaved: horror_games_data.json, horror_games_report.md")
+    print("Done!")
 
 
 if __name__ == "__main__":
