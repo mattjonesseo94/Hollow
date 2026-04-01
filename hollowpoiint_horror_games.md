@@ -2,156 +2,893 @@
 
 **Channel**: [@hollowpoiint](https://www.youtube.com/@hollowpoiint)
 **Creator**: Rey Gonzalez
-**Subscribers**: ~5.08M (as of early 2026)
-**Total Videos**: 6,700+
-**Based in**: Miami, Florida
+**Total Videos Scanned**: 6,750
+**Horror Videos Found**: 1,080
+**Unique Game Titles**: 824 (after deduplication)
+
+*Auto-generated from full channel scrape on April 1, 2026*
 
 -----
 
-## About HollowPoiint
+## Full Playthroughs / Major Series (41 games, 3+ videos each)
 
-Rey Gonzalez (born March 30, 1991, in Cuba) is a YouTube gaming content creator who joined the platform on May 4, 2014. He is widely recognized as one of the top horror game YouTubers, listed alongside Markiplier, Jacksepticeye, CoryxKenshin, and PewDiePie. He is known for thorough, full-length video game walkthroughs and has a particular passion for horror games. His most-viewed video ("I'm never playing this game again..") has 8M+ views and features a horror game. He also runs a second channel, Hollow 2.0 (~207K subscribers).
+| # | Game | Videos | Sample Link |
+|---|------|--------|-------------|
+| 1 | **The Last of Us 2** | 30 | [The Last of Us 2 - NEW GROUNDED UPDATE GAMEPLAY](https://youtube.com/watch?v=8gHkakRph00) |
+| 2 | **The Last of Us** | 18 | [The Last of Us - Official Teaser Trailer REACTION (HBO MAX)](https://youtube.com/watch?v=uuk5NatBrRs) |
+| 3 | **Resident Evil 4 Remake** | 15 | [Resident Evil 4 Remake - FULL GAME (No Commentary)](https://youtube.com/watch?v=V5v9R7H-_o4) |
+| 4 | **Resident Evil 8 Village** | 14 | [Resident Evil 8 Village - Part 11 - ENDING (I Cried)](https://youtube.com/watch?v=QRiKNtqtG00) |
+| 5 | **Dying Light 2** | 14 | [Dying Light 2 - Part 12 - ENDING](https://youtube.com/watch?v=GDWa6yseMf8) |
+| 6 | **The Callisto Protocol** | 13 | [The Callisto Protocol - The Full Game (No Commentary)](https://youtube.com/watch?v=yHEetnw8IUc) |
+| 7 | **Dying Light** | 13 | [Dying Light - Part 10 - THIS ENDING FELT SO GOOD!](https://youtube.com/watch?v=kZ-JrHReQh4) |
+| 8 | **Sons of the Forest** | 10 | [Sons of the Forest - Ending](https://youtube.com/watch?v=6BJ7Yv3NyjQ) |
+| 9 | **Resident Evil 3 Remake** | 8 | [Resident Evil 3 Remake - FULL GAME](https://youtube.com/watch?v=ue_16447UIk) |
+| 10 | **Dead Island 2** | 8 | [Dead Island 2 - FULL GAME (No Commentary)](https://youtube.com/watch?v=fgwrV14fFJE) |
+| 11 | **Resident Evil Requiem** | 8 | [Resident Evil Requiem - Ending](https://youtube.com/watch?v=sGbpS0iN1W0) |
+| 12 | **Outlast** | 8 | [Outlast - Part 3 - I CANT TAKE IT ANYMORE](https://youtube.com/watch?v=UAwbkbp0IuE) |
+| 13 | **Dying Light The Beast** | 7 | [Dying Light The Beast - ENDING / FINAL BOSS](https://youtube.com/watch?v=m3BPsMngIdw) |
+| 14 | **Dead Space Remake** | 7 | [Dead Space Remake - Part 5 - ENDING](https://youtube.com/watch?v=zhzukNK5UqM) |
+| 15 | **Alan Wake 2** | 6 | [Alan Wake 2 - The Lake House (FULL GAME)](https://youtube.com/watch?v=ReNqNwwJLz0) |
+| 16 | **The Quarry** | 6 | [The Quarry -  GOOD & BAD ENDING](https://youtube.com/watch?v=dLxTtLII9ag) |
+| 17 | **Until Dawn** | 6 | [Until Dawn PS5 - Part 6  - ENDING](https://youtube.com/watch?v=JZPf1pIfFts) |
+| 18 | **Outlast 2** | 6 | [Outlast 2 - Part 6 - THE DEVILS BABY 😳 (ENDING)](https://youtube.com/watch?v=TOQPh_nFWsY) |
+| 19 | **Little Nightmares 2** | 6 | [Little Nightmares 2 - Part 4 - ESCAPE THE THIN MAN..](https://youtube.com/watch?v=1lKlBjh4q-8) |
+| 20 | **Dead Island** | 6 | [Dead Island - Part 7 - THE CATACOMBS](https://youtube.com/watch?v=pTVPiQLs_ag) |
+| 21 | **Alan Wake Remastered** | 5 | [Alan Wake Remastered - Part 5 - PRISON](https://youtube.com/watch?v=yRh3nmsIRe4) |
+| 22 | **Dead Space** | 5 | [Dead Space - Part 6  - ITS FINALLY OVER (ENDING)](https://youtube.com/watch?v=06PVJVqfIZw) |
+| 23 | **The Wolf Among Us** | 5 | [The Wolf Among Us: Episode 5 - THE MOST SHOCKING ENDING](https://youtube.com/watch?v=lEIwDTjBUzY) |
+| 24 | **Blair Witch** | 5 | [Blair Witch - ENDING (SO SAD)](https://youtube.com/watch?v=ZCbfjsowLis) |
+| 25 | **Silent Hill f** | 4 | [Silent Hill f - ENDING / FINAL BOSS](https://youtube.com/watch?v=09vjIOYaaDo) |
+| 26 | **Resident Evil 5** | 4 | [Resident Evil 5 - Part 5 - SAVING JILL](https://youtube.com/watch?v=YzHtrlVFf40) |
+| 27 | **The Devil in Me** | 4 | [The Devil in Me - Part 4 - TRAPPED](https://youtube.com/watch?v=TK9o5owWEbA) |
+| 28 | **Dying Light: The Following** | 4 | [Dying Light: The Following - Part 4 - THE TEMPLE OF THE SUN](https://youtube.com/watch?v=OOaLMueNB8o) |
+| 29 | **Dead Space 2** | 4 | [Dead Space 2 - Part 5 - ITS SO CRINGEEE (ENDING)](https://youtube.com/watch?v=YU-gC2MhMQ4) |
+| 30 | **The Medium** | 4 | [The Medium - Part 3 - THE ENDING (SO GOOD!)](https://youtube.com/watch?v=GWGXL_yZBDQ) |
+| 31 | **Little Hope** | 4 | [Little Hope - Part 3 - THE WITCHCRAFT TRIALS](https://youtube.com/watch?v=NkLYYvoPCyM) |
+| 32 | **Red Dead Redemption: Undead Nightmare** | 4 | [Red Dead Redemption: Undead Nightmare - Part 4 - UNDEAD JOHN MARSTON! (Ending)](https://youtube.com/watch?v=UEstWL0Ltj0) |
+| 33 | **Poppy Playtime** | 3 | [Poppy Playtime Chapter 5 - FULL GAME](https://youtube.com/watch?v=g1R9ExslhyI) |
+| 34 | **Silent Hill 2 Remake** | 3 | [Silent Hill 2 Remake - THE HOSPITAL](https://youtube.com/watch?v=xAYlZROCs3M) |
+| 35 | **Amnesia: The Bunker** | 3 | [Amnesia: The Bunker - Ending](https://youtube.com/watch?v=6h43O_S6_mw) |
+| 36 | **Resident Evil 8 Village Shadows of Rose DLC** | 3 | [Resident Evil 8 Village Shadows of Rose DLC  - FULL GAME (No Commentary)](https://youtube.com/watch?v=Y6GUN1cojGc) |
+| 37 | **Martha is Dead** | 3 | [Martha is Dead - Part 3 - IM JUST GLAD ITS OVER..](https://youtube.com/watch?v=qmMRdeNjw1g) |
+| 38 | **House of Ashes** | 3 | [House of Ashes - Part 3 - WELCOME TO HELL 😱](https://youtube.com/watch?v=AeVW5w6Aj3I) |
+| 39 | **Back 4 Blood** | 3 | [Back 4 Blood - Part 2 - OGRE BOSS](https://youtube.com/watch?v=6gn9V63ZxSI) |
+| 40 | **Demon's Souls Remake** | 3 | [Demon's Souls Remake - Part 3 - THE TOWER KNIGHT HAS HUMILIATED ME (PS5 Gameplay)](https://youtube.com/watch?v=XeWbNrxP0YU) |
+| 41 | **The Walking Dead The Final Season** | 3 | [The Walking Dead The Final Season Episode 1 ENDING (Part 3)](https://youtube.com/watch?v=m9CPfVxkskA) |
+
+## Multi-Part Content (9 games, 2 videos each)
+
+| # | Game | Sample Link |
+|---|------|-------------|
+| 1 | **Into The Dead Our Darkest Days** | [Into The Dead Our Darkest Days (Full Game) HELICOPTER ESCAPE](https://youtube.com/watch?v=2AS48Wu9Ad4) |
+| 2 | **The Mortuary Assistant** | [The Mortuary Assistant - “GAMEOVER” Ending](https://youtube.com/watch?v=bOcWc_aZwVY) |
+| 3 | **Beyond Two Souls** | [Beyond Two Souls - Part 5 - THE DEMON SPIRIT](https://youtube.com/watch?v=SmcHF_Y3pSs) |
+| 4 | **Amnesia: Rebirth** | [Amnesia: Rebirth - Part 2 - THE FIRST ENCOUNTER WITH A GHOUL](https://youtube.com/watch?v=ggsofjk31CE) |
+| 5 | **Taken** | [TAKEN | The Beast Inside - Part 8](https://youtube.com/watch?v=LJgQVCA_xkY) |
+| 6 | **Alone in the Forest** | [ALONE IN THE FOREST | Do You Copy](https://youtube.com/watch?v=EyhyhwHBrAo) |
+| 7 | **SOMA** | [SOMA #2 - He's CHASING ME!](https://youtube.com/watch?v=Db9vrNIDi0Q) |
+| 8 | **Cronos The New Dawn** | [Cronos The New Dawn - Part 1 - A NEW POST APOCALYPTIC HORROR..](https://youtube.com/watch?v=ApETYHFs7vs) |
+| 9 | **Still Wakes The Deep** | [Still Wakes The Deep: Sirens Rest - FULL GAME](https://youtube.com/watch?v=_ETg4P7J-E0) |
+
+## Single Videos - Identified Games (551 titles)
+
+| # | Game / Video Title | Link |
+|---|-------------------|------|
+| 1 | Grandma's House Should’ve Been Abandoned | [Watch](https://youtube.com/watch?v=ZOo1VsbkTRY) |
+| 2 | The Tall man Tapes | [Watch](https://youtube.com/watch?v=pa0oLIqi9_U) |
+| 3 | Resident Evil 6 | [Watch](https://youtube.com/watch?v=OTo9I7T1v8Y) |
+| 4 | Resident Evil 2 Remake | [Watch](https://youtube.com/watch?v=3Mp3elx2XHU) |
+| 5 | Resident Evil 1 Remake | [Watch](https://youtube.com/watch?v=-5oEz8rlpew) |
+| 6 | The 1993 Missing Family Case | [Watch](https://youtube.com/watch?v=zN_N96CZTp8) |
+| 7 | Routine | [Watch](https://youtube.com/watch?v=Lxxqm45JQBw) |
+| 8 | The Lighthouse Murder Case | [Watch](https://youtube.com/watch?v=pCxiHEhqGcc) |
+| 9 | The haunted farm house | [Watch](https://youtube.com/watch?v=RVm9OmxPzg0) |
+| 10 | The Craziest Horror Game I’ve Played This Year… | [Watch](https://youtube.com/watch?v=uo35wUOsdMU) |
+| 11 | THIS JAPANESE HORROR GAME IS PURE CINEMA | [Watch](https://youtube.com/watch?v=MwnayUQ1r6M) |
+| 12 | A Game Based on a True Serial Killer Case | [Watch](https://youtube.com/watch?v=_eZLnoxMckA) |
+| 13 | Puppet Combo’s Skinfreak | [Watch](https://youtube.com/watch?v=EiZtGGemxwM) |
+| 14 | Little Nightmares 3 | [Watch](https://youtube.com/watch?v=btP48tys0MU) |
+| 15 | Power Drill Massacre | [Watch](https://youtube.com/watch?v=43wxYmokAXU) |
+| 16 | Face of Another | [Watch](https://youtube.com/watch?v=BSZMvkAmtzQ) |
+| 17 | A Horror Game That Knows when You BLINK | [Watch](https://youtube.com/watch?v=g-MLnd8aGQM) |
+| 18 | Five Nights at Freddy's | [Watch](https://youtube.com/watch?v=_ri8eG_Jspk) |
+| 19 | This is the THE BEST Backrooms Game I've Ever Played | [Watch](https://youtube.com/watch?v=6DFC4K0YLNA) |
+| 20 | SkinFREAK (Puppet Combo) | [Watch](https://youtube.com/watch?v=xrtfdA9GpiI) |
+| 21 | Bleak Haven | [Watch](https://youtube.com/watch?v=ZDCi9YaQN9o) |
+| 22 | Siren Head | [Watch](https://youtube.com/watch?v=VPQw8oOtPtU) |
+| 23 | The Nun Inside My Apartment | [Watch](https://youtube.com/watch?v=by6oCmGFmg4) |
+| 24 | Phase Zero | [Watch](https://youtube.com/watch?v=Qj0l40a4Ehg) |
+| 25 | The Midnight Walk | [Watch](https://youtube.com/watch?v=OwGSSbkADBw) |
+| 26 | The Missing Case of Gracewind Forest | [Watch](https://youtube.com/watch?v=dOrVsEBhRiE) |
+| 27 | This is the best horror game i've played this year | [Watch](https://youtube.com/watch?v=3JemQRPKeJM) |
+| 28 | The incident of Holiday Motel | [Watch](https://youtube.com/watch?v=e7fxN6Ty72E) |
+| 29 | Play as Sheriff James in an attempt to escape the morgue | [Watch](https://youtube.com/watch?v=2Khvh6HO3H4) |
+| 30 | Renting into a Haunted Property | [Watch](https://youtube.com/watch?v=QOVKCK-M4gU) |
+| 31 | Never going to sleep again | [Watch](https://youtube.com/watch?v=OLF0TnlSlCU) |
+| 32 | The door in the basement | [Watch](https://youtube.com/watch?v=78-jI4BWPr0) |
+| 33 | Mom.. you are scaring me | [Watch](https://youtube.com/watch?v=Slr49MQQ41g) |
+| 34 | A vietnamese horror game where you rent a room in a haunted house | [Watch](https://youtube.com/watch?v=Sy9iS-9IpE8) |
+| 35 | I went looting inside an abandoned village | [Watch](https://youtube.com/watch?v=OdDBDCujD8E) |
+| 36 | Taking a break from horror games after this one | [Watch](https://youtube.com/watch?v=zJPqd7IjpBY) |
+| 37 | This Filipino horror game is going straight to my recycling bin | [Watch](https://youtube.com/watch?v=GvtU710vWdo) |
+| 38 | Haunted house for sale | [Watch](https://youtube.com/watch?v=DmJfIQM65UA) |
+| 39 | Someone sent me The Cursed Tape | [Watch](https://youtube.com/watch?v=e1-nO2uywJo) |
+| 40 | 3 Random Horror Games | [Watch](https://youtube.com/watch?v=L3lZOcUkVJQ) |
+| 41 | This SCP Horror Game is amazing | [Watch](https://youtube.com/watch?v=XKIemBjm2_Q) |
+| 42 | This egyptian horror game just took my soul | [Watch](https://youtube.com/watch?v=V8_r0vlTi-4) |
+| 43 | A VHS horror about the Fears of abduction | [Watch](https://youtube.com/watch?v=dpSzLVkZh-s) |
+| 44 | Survive an 80s Abandoned Arcade in this Brazilian Horror Game | [Watch](https://youtube.com/watch?v=_r_P7ZveHsg) |
+| 45 | A horror game based on the true events of Snap Shot Killer | [Watch](https://youtube.com/watch?v=pK7hH5HZTEM) |
+| 46 | The disturbing case of Sunnyside Highschool | [Watch](https://youtube.com/watch?v=Z97jK9J8NHM) |
+| 47 | Visiting Grandma in the Countryside | [Watch](https://youtube.com/watch?v=C-Fzq-sa8fU) |
+| 48 | Nightmare after christmas | [Watch](https://youtube.com/watch?v=AlmbtZJ0U1g) |
+| 49 | This New Dinosaur Game is CREEPY AF | [Watch](https://youtube.com/watch?v=S8zuNfLAokA) |
+| 50 | NOPE.. I dont wanna play a horror like this again | [Watch](https://youtube.com/watch?v=caW7nJXQao0) |
+| 51 | Panic in the woods | [Watch](https://youtube.com/watch?v=VnrMWoH6wLA) |
+| 52 | A Christmas Horror | [Watch](https://youtube.com/watch?v=qZevMgfQqj8) |
+| 53 | Looking for my lost daughter in Taiwans most haunted village | [Watch](https://youtube.com/watch?v=UivTEWtQXIg) |
+| 54 | A home invasion horror game based on true events | [Watch](https://youtube.com/watch?v=1AAJkkYOW7M) |
+| 55 | Dating a Spanish Tiktoker Horror | [Watch](https://youtube.com/watch?v=Df8DG6xy9wI) |
+| 56 | I'm DONE with Grandma Horror Games | [Watch](https://youtube.com/watch?v=dmYY1y-ckt8) |
+| 57 | People have gone missing in this haunted mansion | [Watch](https://youtube.com/watch?v=mj2ZAcA4_GE) |
+| 58 | I'M BEING FOLLOWED by a Creepy Tall Woman in CROWDED Places | [Watch](https://youtube.com/watch?v=-md9t1a7FDU) |
+| 59 | I Checked into haunted hotel that wont let me leave | [Watch](https://youtube.com/watch?v=QEu6TrhyBNI) |
+| 60 | Lost in a horrifying Liminal Space | [Watch](https://youtube.com/watch?v=M0jav8zAJwA) |
+| 61 | A psychological thriller game set in a dystopian world | [Watch](https://youtube.com/watch?v=SBgl8C0fcKI) |
+| 62 | Silent Hill 2 Remake Ending | [Watch](https://youtube.com/watch?v=TZtJ0E4i5IA) |
+| 63 | Until Dawn Remake | [Watch](https://youtube.com/watch?v=i01iianupUU) |
+| 64 | Home alone in Japan | [Watch](https://youtube.com/watch?v=JGJvk0gQnfY) |
+| 65 | A Zookeeping Simulator Horror Game | [Watch](https://youtube.com/watch?v=MwJKNKROqK0) |
+| 66 | I'm Searching for My DAD in a Creepy Mental Asylum | [Watch](https://youtube.com/watch?v=ZBSNqtTuyxw) |
+| 67 | A First Person Horror Game of a dying crew lost in space | [Watch](https://youtube.com/watch?v=jBibuZ7HW4M) |
+| 68 | Dead Rising Deluxe Remaster | [Watch](https://youtube.com/watch?v=yMwdzgwyi1U) |
+| 69 | A WINTER GETAWAY HORROR | [Watch](https://youtube.com/watch?v=iAGzpYtQ6-o) |
+| 70 | A surreal horror game about the after life | [Watch](https://youtube.com/watch?v=JaoVRHl80hg) |
+| 71 | A psycological horror game that deals with witchcraft | [Watch](https://youtube.com/watch?v=uALJf10DELo) |
+| 72 | THE WINDOWS ARE GONE | [Watch](https://youtube.com/watch?v=7AudgJ5vmJE) |
+| 73 | A cops desperate attempt to escape a cursed home | [Watch](https://youtube.com/watch?v=JhiIqj_cxSU) |
+| 74 | This home invasion horror game is UNHINGED | [Watch](https://youtube.com/watch?v=HjZ_JRUOUaQ) |
+| 75 | This japanese horror game mentally scarred me | [Watch](https://youtube.com/watch?v=UtWQ-lTpdhQ) |
+| 76 | A psycological horror game about sleep paralysis | [Watch](https://youtube.com/watch?v=hl2Yy9o1PnI) |
+| 77 | Hyper-realistic horror that uses your mic to communicate with a dead housemaid | [Watch](https://youtube.com/watch?v=MCnQNfvlHSI) |
+| 78 | Daddy, chill | [Watch](https://youtube.com/watch?v=CUOUKi5_O78) |
+| 79 | A Shadow Conspiracy Horror Game Inspired By Resident Evil | [Watch](https://youtube.com/watch?v=8a_eb1YNXco) |
+| 80 | The Shape-Shifting Killer in the Woods | [Watch](https://youtube.com/watch?v=APG1GXQbX7M) |
+| 81 | A Deadly Late Night Snack | [Watch](https://youtube.com/watch?v=zAr-e6_Beog) |
+| 82 | A Detective's Body Cam Horror Footage | [Watch](https://youtube.com/watch?v=_rADUfdnhlI) |
+| 83 | Lunch Lady Horror | [Watch](https://youtube.com/watch?v=ZuIOQ7JOUKQ) |
+| 84 | IF YOU CLAP, HE COMES | [Watch](https://youtube.com/watch?v=8SKWCDAwIbc) |
+| 85 | Alan Wake 2 Night Springs DLC | [Watch](https://youtube.com/watch?v=TFMRO-KX0jw) |
+| 86 | NEW BLACK OPS 6 GAMEPLAY | [Watch](https://youtube.com/watch?v=BuilNEHZ3WU) |
+| 87 | The murder of a mentally unstable husband | [Watch](https://youtube.com/watch?v=GbxagBeL6Po) |
+| 88 | Would you play a game made by the devil..? | [Watch](https://youtube.com/watch?v=L91spDE_V5Y) |
+| 89 | I Broke into an Abandoned Theme Park | [Watch](https://youtube.com/watch?v=s5jFrysNeKw) |
+| 90 | NEW SILENT HILL 2 REMAKE GAMEPLAY | [Watch](https://youtube.com/watch?v=6JeSxa-7wN8) |
+| 91 | A game where you wake up alone, in space | [Watch](https://youtube.com/watch?v=1l0Zz4SN8pU) |
+| 92 | ESCAPE THIS HAUNTED TAIWANESE SCHOOL | [Watch](https://youtube.com/watch?v=zEtw9cgl4nI) |
+| 93 | I went ghost hunting in an ABANDONED house | [Watch](https://youtube.com/watch?v=H9bH4uaKqhE) |
+| 94 | Lost in the woods with the Mimic Killer | [Watch](https://youtube.com/watch?v=w3_2WowZFSc) |
+| 95 | I Tried Playing 2 New Random Backrooms Horror Games | [Watch](https://youtube.com/watch?v=oj4L2v-EwMY) |
+| 96 | A Psycological Horror Where You Play A Rookie Cop | [Watch](https://youtube.com/watch?v=m3BU8mnxH7c) |
+| 97 | My First Time Ever Playing The Outlast Trials..😳 | [Watch](https://youtube.com/watch?v=TqL6vOoHFNM) |
+| 98 | DINOSAUR FOUND FOOTAGE HORROR | [Watch](https://youtube.com/watch?v=cEWp_aEEIes) |
+| 99 | A Crime Scene Horror | [Watch](https://youtube.com/watch?v=FczKloD3-Jo) |
+| 100 | Undead Trooper Zombies.. 😲 | [Watch](https://youtube.com/watch?v=CF5HWd1IFsE) |
+| 101 | Star Wars Survival Horror | [Watch](https://youtube.com/watch?v=p3XGe6fV5Tg) |
+| 102 | A Horror Games About Loneliness and Isolation | [Watch](https://youtube.com/watch?v=RV0r-XYSwUs) |
+| 103 | EXCAVATION BUNKER NIGHTMARE | [Watch](https://youtube.com/watch?v=m47P0Gp0vno) |
+| 104 | JAPANESE TRAIN HORROR | [Watch](https://youtube.com/watch?v=VNcWYD88LMI) |
+| 105 | The Neighborhood Sacrifice | [Watch](https://youtube.com/watch?v=T2IECwy1UJQ) |
+| 106 | Alone in the Dark | [Watch](https://youtube.com/watch?v=BdVjZYuD4fA) |
+| 107 | A 90s Summer Camp Horror | [Watch](https://youtube.com/watch?v=OHB9GPIJCDg) |
+| 108 | An Unpleasant Analog Horror | [Watch](https://youtube.com/watch?v=wvUIzKPCVHQ) |
+| 109 | Hyper-Realistic Body Cam Horror | [Watch](https://youtube.com/watch?v=itCPuf-n1EM) |
+| 110 | This New Photorealistic Backrooms Game is TERRIFYING | [Watch](https://youtube.com/watch?v=MSZM0k9sPOs) |
+| 111 | A Chinese Paranormal Horror | [Watch](https://youtube.com/watch?v=rJnaOqecuqA) |
+| 112 | OKAY, This Turkish Horror Game is Terrifying | [Watch](https://youtube.com/watch?v=QNecuJWr-tI) |
+| 113 | Abandoned Ghost Ship Horror | [Watch](https://youtube.com/watch?v=SVhsF8whhUA) |
+| 114 | Prison Escape Horror | [Watch](https://youtube.com/watch?v=tTlBSWC20iU) |
+| 115 | GREAT, Another Realistic Horror Game About A Psychiatric Hospital | [Watch](https://youtube.com/watch?v=dOnL1hxITDc) |
+| 116 | IFU | [Watch](https://youtube.com/watch?v=kevPX9gzTh0) |
+| 117 | Never Take The Train ALONE | [Watch](https://youtube.com/watch?v=mx8kn-ey-F0) |
+| 118 | A VHS horror game about a police body-cam footage | [Watch](https://youtube.com/watch?v=Jzg_5hrBMaY) |
+| 119 | I took home a cursed video game | [Watch](https://youtube.com/watch?v=0f8gCPrgo2I) |
+| 120 | HORROR GAME OF THE YEAR | [Watch](https://youtube.com/watch?v=2qdIi7vNMV0) |
+| 121 | Silent Hill: The Short Message | [Watch](https://youtube.com/watch?v=U_WkISrytHQ) |
+| 122 | I Have to Use My Mic to Find My Dog In The Sewers | [Watch](https://youtube.com/watch?v=Z0flimcPcdY) |
+| 123 | This Russian Psycological Horror Game is UNHINGED | [Watch](https://youtube.com/watch?v=zZ6DQIcCut8) |
+| 124 | I Got Job As A Forest Ranger Where People Are Going Missing | [Watch](https://youtube.com/watch?v=_GC2jLHh6o0) |
+| 125 | A paranormal horror game where you look after a dead body | [Watch](https://youtube.com/watch?v=5r1a30-l9fE) |
+| 126 | I took my camcorder to record a haunted doll house | [Watch](https://youtube.com/watch?v=NjqaVIIZuAg) |
+| 127 | Welcome to THE LAST OF US 2 REMASTERED | [Watch](https://youtube.com/watch?v=kkFyxH7XeKA) |
+| 128 | Dont walk alone at night in the streets of Japan | [Watch](https://youtube.com/watch?v=glNs2OfSAP4) |
+| 129 | Realistic horror game that uses your mic to communicate with evil entities | [Watch](https://youtube.com/watch?v=O8sxPda7Ork) |
+| 130 | This VHS tape is hiding a frightening secret | [Watch](https://youtube.com/watch?v=0igZCQvV5SE) |
+| 131 | ACTUALLY.. an impressive new horror game | [Watch](https://youtube.com/watch?v=n54OkiqxcLo) |
+| 132 | A nail-biting horror game about 'russian roulette' | [Watch](https://youtube.com/watch?v=TnoEX1cLJsI) |
+| 133 | a psychological horror game where you have to escape from a hospital | [Watch](https://youtube.com/watch?v=40t80UJeOAM) |
+| 134 | Broken Through | [Watch](https://youtube.com/watch?v=KhrdKlw-W8k) |
+| 135 | A japanese found footage horror game | [Watch](https://youtube.com/watch?v=bmDdOBXIctA) |
+| 136 | FOUND FOOTAGE HORROR | [Watch](https://youtube.com/watch?v=ucU4aK0v_UM) |
+| 137 | Lethal Company is actually insane | [Watch](https://youtube.com/watch?v=X49EFrySbQU) |
+| 138 | Slender: The Arrival | [Watch](https://youtube.com/watch?v=enlBfF0dM2A) |
+| 139 | Don't stay past midnight | [Watch](https://youtube.com/watch?v=HcRco5XiIjw) |
+| 140 | The Walking Dead Destinies is so bad..😂 | [Watch](https://youtube.com/watch?v=zfizDjuVvq8) |
+| 141 | Don't Scream or die | [Watch](https://youtube.com/watch?v=ItK9G_Udfy4) |
+| 142 | Dead Island 2 Haus DLC | [Watch](https://youtube.com/watch?v=247Wqkwcc2I) |
+| 143 | This detective horror game messed me up | [Watch](https://youtube.com/watch?v=NSRZ4wyjcEk) |
+| 144 | a photorealistic cosmic horror game about UFOs | [Watch](https://youtube.com/watch?v=XH5YiJ45CJU) |
+| 145 | RESIDENT EVIL 4 REMAKE SEPERATE WAYS DLC | [Watch](https://youtube.com/watch?v=m3-dDbU7CUk) |
+| 146 | Resident Evil 4 Remake Seperate Ways DLC | [Watch](https://youtube.com/watch?v=amG14lY3-K4) |
+| 147 | Pumpkin Panic is hiding something DISTURBING | [Watch](https://youtube.com/watch?v=4p-kiQEr598) |
+| 148 | Chilla's Art The Ghost Train | [Watch](https://youtube.com/watch?v=RQi2JnmGelc) |
+| 149 | SO.. I Tried Playing Texas Chainsaw Massacre | [Watch](https://youtube.com/watch?v=RAe2bemYhCs) |
+| 150 | ULTRA REALISTIC BACKROOMS EXPERIENCE | [Watch](https://youtube.com/watch?v=tL0f7vT5qPo) |
+| 151 | The Callisto Protocol: Final Transmission | [Watch](https://youtube.com/watch?v=DcxGuvl4XlI) |
+| 152 | WAIT.. there’s actually a dinosaur horror game 😱 | [Watch](https://youtube.com/watch?v=Iq5tOi9RINA) |
+| 153 | They Are Here: Alien Abduction Horror | [Watch](https://youtube.com/watch?v=VcLtDm9cTI0) |
+| 154 | Welcome to The Greyhill Incident | [Watch](https://youtube.com/watch?v=Jq6EuQujxcs) |
+| 155 | An Underwater Submarine Horror Game | [Watch](https://youtube.com/watch?v=tYkKp74CJpw) |
+| 156 | Nightmare in Squidville | [Watch](https://youtube.com/watch?v=t3v66F9VDw8) |
+| 157 | A Photo-Realistic Body Cam Horror Game | [Watch](https://youtube.com/watch?v=y0bfbMoti9o) |
+| 158 | Layers of Fear has made its RETURN | [Watch](https://youtube.com/watch?v=Vjq4AApJP38) |
+| 159 | WAIT.. actually a good horror game | [Watch](https://youtube.com/watch?v=pLPyGL2kefs) |
+| 160 | this is NOT A KIDS GAME | [Watch](https://youtube.com/watch?v=zWJJlJMOPr4) |
+| 161 | UFO SURVIVAL HORROR  | [Watch](https://youtube.com/watch?v=D2BmY9mLsVQ) |
+| 162 | Dead Island 2 Ending | [Watch](https://youtube.com/watch?v=Z4Ie9IQYBjk) |
+| 163 | POLICE DETECTIVE HORROR | [Watch](https://youtube.com/watch?v=nu7wuRLkSzI) |
+| 164 | LOST VHS HORROR TAPE | [Watch](https://youtube.com/watch?v=czGyhxsgtM0) |
+| 165 | LETS PLAY HIDE AND SEEK | [Watch](https://youtube.com/watch?v=pUOcGGmrv1o) |
+| 166 | Stuck in a simulation horror | [Watch](https://youtube.com/watch?v=fMLsVpbFO2Q) |
+| 167 | TAKING CARE OF GRANDMPA | [Watch](https://youtube.com/watch?v=yK3aXnmMb6c) |
+| 168 | MY FRIENDS HAUNTED APARTMENT | [Watch](https://youtube.com/watch?v=kOVjVV7RsSQ) |
+| 169 | A VERY DISTURBING GAME EXPERIENCE | [Watch](https://youtube.com/watch?v=kXXfW778yvU) |
+| 170 | Welcome to THE LAST OF US PART 1 PC | [Watch](https://youtube.com/watch?v=HhP-oyYD2sI) |
+| 171 | Resident Evil 5 Ending | [Watch](https://youtube.com/watch?v=wQeMBM7-B1s) |
+| 172 | Resident Evil 5: 14 YEARS LATER | [Watch](https://youtube.com/watch?v=nr-wV_j4Xog) |
+| 173 | DEAD ISLAND 2 NEW GAMEPLAY | [Watch](https://youtube.com/watch?v=2DLJXjGqJO4) |
+| 174 | so.. this is RESIDENT EVIL VILLAGE on PSVR2 | [Watch](https://youtube.com/watch?v=ZX8LIkfuBSk) |
+| 175 | Careful going to the neighbors house | [Watch](https://youtube.com/watch?v=at2dtbagRU4) |
+| 176 | This Resident Evil 4 Remake | [Watch](https://youtube.com/watch?v=VlcUzmewJfo) |
+| 177 | Atomic Heart | [Watch](https://youtube.com/watch?v=vsNPY-YeTls) |
+| 178 | NEVER take this elevator | [Watch](https://youtube.com/watch?v=igV8_S0v440) |
+| 179 | A HOME BREAK-IN HORROR | [Watch](https://youtube.com/watch?v=M5AiyNa7GvA) |
+| 180 | Metal Gear Solid Remake? | [Watch](https://youtube.com/watch?v=Yw4MZp1VuWo) |
+| 181 | NEVER dump your ex-girlfriend before christmas | [Watch](https://youtube.com/watch?v=Pco_GMX7geU) |
+| 182 | I tried revisiting Demon's Souls | [Watch](https://youtube.com/watch?v=g6VmHWqIAXw) |
+| 183 | These jumpscares TOOK ME OUT | [Watch](https://youtube.com/watch?v=gYvqgATIGWc) |
+| 184 | The Devil in Me ENDING | [Watch](https://youtube.com/watch?v=-w6Sfdw78qQ) |
+| 185 | OK.. actually a good horror game | [Watch](https://youtube.com/watch?v=POI3a64tvlA) |
+| 186 | Stuck INSIDE THE BACKROOMS | [Watch](https://youtube.com/watch?v=XGeTmEGhrWo) |
+| 187 | Resident Evil 8 Village Shadows of Rose DLC ENDING | [Watch](https://youtube.com/watch?v=rGgzTBDd0EY) |
+| 188 | THE DEVIL IN ME | [Watch](https://youtube.com/watch?v=J2ymtE6wb1g) |
+| 189 | Never go camping in the woods at night | [Watch](https://youtube.com/watch?v=VPfYMEMdJMc) |
+| 190 | Exploring an abandoned ghost ship | [Watch](https://youtube.com/watch?v=BiIHbasYGFM) |
+| 191 | GRANDMA HORROR | [Watch](https://youtube.com/watch?v=50m-rEBVe20) |
+| 192 | SHE'S WAITING IN THE BASEMENT | [Watch](https://youtube.com/watch?v=NG_jZobXMPU) |
+| 193 | HIDE AND SEEK | [Watch](https://youtube.com/watch?v=8d4Kl2iosqA) |
+| 194 | THE CABIN IN THE WOODS | [Watch](https://youtube.com/watch?v=oNAHO0w3Gz0) |
+| 195 | PSYCHOLOGICAL THAI HORROR | [Watch](https://youtube.com/watch?v=2BX7kEEgGTU) |
+| 196 | Night at the Gates of Hell | [Watch](https://youtube.com/watch?v=Y4uZQRTe1lg) |
+| 197 | Welcome to SCORN | [Watch](https://youtube.com/watch?v=vpAsgkaScug) |
+| 198 | The Haunting of Hotel Greenwood | [Watch](https://youtube.com/watch?v=65lZO_ICpaw) |
+| 199 | The Radio Station | [Watch](https://youtube.com/watch?v=HQrhp8x2OmI) |
+| 200 | ULTRA REALISTIC HORROR | [Watch](https://youtube.com/watch?v=aRBUF7PKNyk) |
+| 201 | YEAH.. absolutely not | [Watch](https://youtube.com/watch?v=AYHiToHo8EY) |
+| 202 | HER GHOST IS HERE | [Watch](https://youtube.com/watch?v=G-ptTUmvVls) |
+| 203 | DEAD ISLAND 2 GAMEPLAY | [Watch](https://youtube.com/watch?v=xHuL6OJrEqo) |
+| 204 | The Mandela Catalogue | [Watch](https://youtube.com/watch?v=ipeMlJMzXd4) |
+| 205 | The Floor is Breathing | [Watch](https://youtube.com/watch?v=gmOs-TIdrFY) |
+| 206 | Careful driving through this village alone at night | [Watch](https://youtube.com/watch?v=MNn-qFN-zwo) |
+| 207 | GRANDMA.. put the knife down | [Watch](https://youtube.com/watch?v=SA7UgZqMJPA) |
+| 208 | I don’t want to work here anymore | [Watch](https://youtube.com/watch?v=XoZ1TSP7ERA) |
+| 209 | i played 3 random horror games | [Watch](https://youtube.com/watch?v=yDNnw6iwtkg) |
+| 210 | The Last of Us Remake PS5 | [Watch](https://youtube.com/watch?v=z3O1WXC19cs) |
+| 211 | MADiSON | [Watch](https://youtube.com/watch?v=psky3TI97_s) |
+| 212 | Blue Knees is REAL | [Watch](https://youtube.com/watch?v=ZOOA3SP1RWg) |
+| 213 | The 4 Sacrifices | [Watch](https://youtube.com/watch?v=Ug51zXmF0eE) |
+| 214 | I'm actually PANICKING right now | [Watch](https://youtube.com/watch?v=yTZCt0wZXp8) |
+| 215 | RESIDENT EVIL 3 REMAKE PS5 | [Watch](https://youtube.com/watch?v=OceoQsH862o) |
+| 216 | RESIDENT EVIL 2 REMAKE PS5 | [Watch](https://youtube.com/watch?v=VZCWTQ1B2J8) |
+| 217 | THE LAST OF US REMAKE.. (PS5) | [Watch](https://youtube.com/watch?v=VZK6XdCLl90) |
+| 218 | Something is hiding inside these tunnels | [Watch](https://youtube.com/watch?v=RPFbcKcVPiw) |
+| 219 | NEW THE CALLISTO PROTOCOL GAMEPLAY (PS5) | [Watch](https://youtube.com/watch?v=GqoWMJi9pjs) |
+| 220 | NEW RESIDENT EVIL 4 REMAKE (PS5) | [Watch](https://youtube.com/watch?v=lbOsgRKLYGw) |
+| 221 | she wont leave me alone | [Watch](https://youtube.com/watch?v=P9OnKBFN7Dk) |
+| 222 | a PSYCHEDELIC horror game | [Watch](https://youtube.com/watch?v=szcrvpN1yv4) |
+| 223 | he is hiding in my house | [Watch](https://youtube.com/watch?v=cN8NpLhqsFw) |
+| 224 | Why do i keep playing these games | [Watch](https://youtube.com/watch?v=3kXa1Z5Wa-o) |
+| 225 | MOMMY LONG LEGS WANTS TO PLAY | [Watch](https://youtube.com/watch?v=YPI3EloXqb0) |
+| 226 | WARNING: this kids game is cursed | [Watch](https://youtube.com/watch?v=S_-lznwB0FQ) |
+| 227 | A World War Horror Game | [Watch](https://youtube.com/watch?v=PlJ-Jdx-TY0) |
+| 228 | A PUPPET HORROR | [Watch](https://youtube.com/watch?v=7jK0UMOcO0o) |
+| 229 | The Smiling Man | [Watch](https://youtube.com/watch?v=Ag1qKADQatc) |
+| 230 | THE WOLF AMONG US 2 | [Watch](https://youtube.com/watch?v=g76MLJI6xIA) |
+| 231 | DYING LIGHT 2 PS5 Collectors Edition Unboxing | [Watch](https://youtube.com/watch?v=WHdjWiht110) |
+| 232 | so.. played the BACKROOMS GAME | [Watch](https://youtube.com/watch?v=y0Lf76NujA4) |
+| 233 | Dying Light: The Following Ending | [Watch](https://youtube.com/watch?v=zW_UdV9lr-w) |
+| 234 | Broken Veil | [Watch](https://youtube.com/watch?v=LL4uaOZ1l0o) |
+| 235 | The Backrooms Found Footage is TERRIFYING | [Watch](https://youtube.com/watch?v=RXI-G64NQ3E) |
+| 236 | She’s waiting for me | [Watch](https://youtube.com/watch?v=yNGSMhQTOZw) |
+| 237 | this fan made Halloween horror game is TERRYFYING | [Watch](https://youtube.com/watch?v=n7S16zTi8J8) |
+| 238 | Im not alone down here | [Watch](https://youtube.com/watch?v=mWtVtwt3X5A) |
+| 239 | NEVER sneak into your neighbors house at night | [Watch](https://youtube.com/watch?v=Uvy4TAj34kE) |
+| 240 | A HITCHICKING HORROR GAME | [Watch](https://youtube.com/watch?v=ihIkwmvo0Mc) |
+| 241 | the apartment | [Watch](https://youtube.com/watch?v=428XmhEkzZc) |
+| 242 | This park is haunted | [Watch](https://youtube.com/watch?v=Y31A703Lwik) |
+| 243 | WAIT.. she's crawling at me | [Watch](https://youtube.com/watch?v=h-Ci9OVrO80) |
+| 244 | NEW DYING LIGHT 2 GAMEPLAY | [Watch](https://youtube.com/watch?v=MIRiRrLGkmw) |
+| 245 | The Horrors Lost Tape | [Watch](https://youtube.com/watch?v=4ElebWAQ6vo) |
+| 246 | these hidden police tapes are terrifying | [Watch](https://youtube.com/watch?v=xIkR0UK3SCc) |
+| 247 | Alan Wake Remastered Ending | [Watch](https://youtube.com/watch?v=sivCYD3YTcE) |
+| 248 | House of Ashes Ending | [Watch](https://youtube.com/watch?v=vDLml5tambY) |
+| 249 | BRO.. im tired of screaming | [Watch](https://youtube.com/watch?v=fYj5iyIizjA) |
+| 250 | KING OF HORROR | [Watch](https://youtube.com/watch?v=EHN3poJRPxg) |
+| 251 | WHY DID YOU TELL ME TO PLAY THIS | [Watch](https://youtube.com/watch?v=wn8XnDnTvvU) |
+| 252 | Investigating a psychiatric hospital | [Watch](https://youtube.com/watch?v=ncQixVkRyd0) |
+| 253 | THIS TOY WANTS TO KILL ME | [Watch](https://youtube.com/watch?v=IjGex7SroCY) |
+| 254 | Dead Island Riptide | [Watch](https://youtube.com/watch?v=5eSjzjzTVzM) |
+| 255 | I remember this dream | [Watch](https://youtube.com/watch?v=EsGv3Rdw9ik) |
+| 256 | Mom died here | [Watch](https://youtube.com/watch?v=42eX_WnQStE) |
+| 257 | IM ACTUALLY BEING CHASED BY MAN EATING MONKEYS | [Watch](https://youtube.com/watch?v=_bbLXfcKmj8) |
+| 258 | Dead Island Riptide: 8 YEARS LATER | [Watch](https://youtube.com/watch?v=l9D0Bo5c2EY) |
+| 259 | BRO.. McDonalds has a horror game | [Watch](https://youtube.com/watch?v=f49lpVHz8tY) |
+| 260 | NEVER move in with a roomate | [Watch](https://youtube.com/watch?v=iTF8jQ_Xu5U) |
+| 261 | Nah.. she tweakin | [Watch](https://youtube.com/watch?v=rXFnchMtfto) |
+| 262 | IM TRAPPED IN A LAUNDRY WITH A SERIAL KILLER • Bloodwash | [Watch](https://youtube.com/watch?v=Tc-F-OL5X5o) |
+| 263 | THE RIVERSIDE INCIDENT | [Watch](https://youtube.com/watch?v=edOEjtG7-P4) |
+| 264 | This zombie survival game is actually FREE | [Watch](https://youtube.com/watch?v=2BTE1ATUwEs) |
+| 265 | THE DEVIL LIVES HERE | [Watch](https://youtube.com/watch?v=zItdZNyczC0) |
+| 266 | The most uncomfortable horror experience | [Watch](https://youtube.com/watch?v=yPA3ezcuH6s) |
+| 267 | House of Ashes is SO GOOD | [Watch](https://youtube.com/watch?v=WtrIEgZH_g0) |
+| 268 | HORROR REALISM | [Watch](https://youtube.com/watch?v=4xLbKYfp7jM) |
+| 269 | THEY PAID ME $500 TO ENTER THIS INSANE ASYLUM | [Watch](https://youtube.com/watch?v=Yq65cF5nVZI) |
+| 270 | Error 54 | [Watch](https://youtube.com/watch?v=kvGzq-8zQnQ) |
+| 271 | KING OF JUMPSCARES | [Watch](https://youtube.com/watch?v=NrycAv07AC0) |
+| 272 | PLEASE DONT TURN AROUND | [Watch](https://youtube.com/watch?v=NMZhPVG0xB4) |
+| 273 | Photorealistic horror | [Watch](https://youtube.com/watch?v=Nk3e4hyRcHI) |
+| 274 | WHATS INSIDE THE BASEMENT | [Watch](https://youtube.com/watch?v=GFQZuwmN_XU) |
+| 275 | SHE WONT LET ME LEAVE | [Watch](https://youtube.com/watch?v=j_XjmawYp_I) |
+| 276 | I DONT WANT TO WORK HERE ANYMORE | [Watch](https://youtube.com/watch?v=7P7RCP8NlZw) |
+| 277 | This Ending Just Melted My Brain | [Watch](https://youtube.com/watch?v=qjdkZ3y98rs) |
+| 278 | The House in the Woods | [Watch](https://youtube.com/watch?v=poDNi0YRwzQ) |
+| 279 | Never go to the park alone at night | [Watch](https://youtube.com/watch?v=_OjYJ3mHPsQ) |
+| 280 | This All Makes Sense Now | [Watch](https://youtube.com/watch?v=WQFa61hoJJ8) |
+| 281 | i quit | [Watch](https://youtube.com/watch?v=mMGpRokuMU0) |
+| 282 | Be Quiet, Dont Look At It | [Watch](https://youtube.com/watch?v=gJj-tgXgq7A) |
+| 283 | an alien abduction horror game | [Watch](https://youtube.com/watch?v=EnNvF53s5bg) |
+| 284 | my first time playing SIREN HEAD | [Watch](https://youtube.com/watch?v=vuRfcVu25Ps) |
+| 285 | NEW BACK 4 BLOOD CAMPAIGN GAMEPLAY | [Watch](https://youtube.com/watch?v=hWWeN-5uORY) |
+| 286 | the scariest 10 minutes | [Watch](https://youtube.com/watch?v=xC4dBMTURII) |
+| 287 | Soma: 6 YEARS LATER | [Watch](https://youtube.com/watch?v=je6azAd9qUU) |
+| 288 | HE LOCKED ME IN HIS BASEMENT | [Watch](https://youtube.com/watch?v=JV-mwUFOWII) |
+| 289 | Dead Space 2: 10 YEARS LATER | [Watch](https://youtube.com/watch?v=2N_WM9BwKn4) |
+| 290 | PARANORMAL ACTIVITY CAUGHT ON CAMERA | [Watch](https://youtube.com/watch?v=rZ3aLYGd2Eo) |
+| 291 | DEAD SPACE REMAKE | [Watch](https://youtube.com/watch?v=ykndrD2W-U0) |
+| 292 | The New Japanese Psycohological Horror Game | [Watch](https://youtube.com/watch?v=zjVbTzbwexQ) |
+| 293 | A HOME INVASION HORROR GAME | [Watch](https://youtube.com/watch?v=IcjVi34Cjys) |
+| 294 | New Dying Light 2 | [Watch](https://youtube.com/watch?v=g8tIXxyHpS8) |
+| 295 | DYING LIGHT 2 NEW GAMEPLAY | [Watch](https://youtube.com/watch?v=SghY-XsuOZU) |
+| 296 | The Last Of Us 2: Enhanced | [Watch](https://youtube.com/watch?v=9Wyw8C5ScoE) |
+| 297 | Dead Space: 13 YEARS LATER | [Watch](https://youtube.com/watch?v=AOl0pz9hQng) |
+| 298 | Returnal | [Watch](https://youtube.com/watch?v=Z4luAGA_l9k) |
+| 299 | THE LAST SURVIVOR | [Watch](https://youtube.com/watch?v=9yQNjmmSwTs) |
+| 300 | THE ESCAPE | [Watch](https://youtube.com/watch?v=ieaiqmeALTk) |
+| 301 | THE ALIEN NEST | [Watch](https://youtube.com/watch?v=oz7qqf_QoYM) |
+| 302 | EVERYONE IS DEAD | [Watch](https://youtube.com/watch?v=L5nfLvRyliw) |
+| 303 | THIS FLAMETHROWER CHANGES  EVERYTHING | [Watch](https://youtube.com/watch?v=S-xHQM_SASY) |
+| 304 | WELCOME TO PLANET ALCHERON | [Watch](https://youtube.com/watch?v=W6ceYKk_imE) |
+| 305 | I DONT WANT TO PLAY THIS ANYMORE | [Watch](https://youtube.com/watch?v=3qrJUH9OXik) |
+| 306 | HUMAN KILLING ANDROIDS | [Watch](https://youtube.com/watch?v=QipzJChPt6k) |
+| 307 | OKAY..HE'S ACTUALLY TERRIFYING | [Watch](https://youtube.com/watch?v=_GqC6TMv5Oc) |
+| 308 | NEW RESIDENT EVIL 8: VILLAGE GAMEPLAY (PS5) | [Watch](https://youtube.com/watch?v=xxw2ZGcmetg) |
+| 309 | ITS TIME | [Watch](https://youtube.com/watch?v=6ho8OhzLfVw) |
+| 310 | THE DAY BEFORE | [Watch](https://youtube.com/watch?v=AsTEabaq4Wo) |
+| 311 | EVELINE'S CURSE 😲 | [Watch](https://youtube.com/watch?v=QmycdDMH5sY) |
+| 312 | THE PLOT THICKENS | [Watch](https://youtube.com/watch?v=bJls4hUy77Y) |
+| 313 | HAPPY BIRTHDAY | [Watch](https://youtube.com/watch?v=K_kCVtNbyHs) |
+| 314 | OH.. SHE NASTY | [Watch](https://youtube.com/watch?v=s0gFi5bm2b4) |
+| 315 | THIS IS GETTING A LITTLE CRAZY NOW | [Watch](https://youtube.com/watch?v=3kxfp2cTYEU) |
+| 316 | Umm.. Mom? | [Watch](https://youtube.com/watch?v=fnr2XOZ_Pfk) |
+| 317 | Bioshock Remastered | [Watch](https://youtube.com/watch?v=1Y_SYlm4jPQ) |
+| 318 | Little Nightmares 2 Ending | [Watch](https://youtube.com/watch?v=-OavbKtK9sQ) |
+| 319 | THE ENDING ILL NEVER FORGET | [Watch](https://youtube.com/watch?v=Y0_YHsXJQI4) |
+| 320 | NEW RESIDENT EVIL VILLAGE GAMEPLAY | [Watch](https://youtube.com/watch?v=Y06xutuqnsA) |
+| 321 | SALAZAR BOSS FIGHT | [Watch](https://youtube.com/watch?v=VxWKYW8Lfgc) |
+| 322 | This Photo Realistic Horror Game RUINED ME | [Watch](https://youtube.com/watch?v=S-_fdpGtV_8) |
+| 323 | THE SACRIFICE | [Watch](https://youtube.com/watch?v=x6wsdo9RERc) |
+| 324 | THE SEWER BOSS | [Watch](https://youtube.com/watch?v=7ovRA03uvlw) |
+| 325 | Dead Island Ending | [Watch](https://youtube.com/watch?v=7NKKkhteLHw) |
+| 326 | Dead Island: 9 YEARS LATER | [Watch](https://youtube.com/watch?v=jOwQkMYrY1g) |
+| 327 | Call of Duty: Black Ops Cold War Campaign | [Watch](https://youtube.com/watch?v=C2cuh5SEKBg) |
+| 328 | THE SUFFERING FINALLY ENDS | [Watch](https://youtube.com/watch?v=upBGdQQRBqw) |
+| 329 | ITS FINALLY HERE | [Watch](https://youtube.com/watch?v=8hF_tXRvX00) |
+| 330 | Little Hope Ending | [Watch](https://youtube.com/watch?v=lE8AiXyFS-8) |
+| 331 | ESCAPE | [Watch](https://youtube.com/watch?v=Ko3ibR1w8j8) |
+| 332 | This 15 Minute Horror Game Has Taken My Soul | [Watch](https://youtube.com/watch?v=5DnjVffnV4Y) |
+| 333 | Amnesia: Rebirth Ending | [Watch](https://youtube.com/watch?v=CPJhYPpn7mc) |
+| 334 | The New Zombie Royale Update is PERFECT | [Watch](https://youtube.com/watch?v=sjFkykgh894) |
+| 335 | Ghost of Tsushima: Legends DLC | [Watch](https://youtube.com/watch?v=32yvwrcv6kg) |
+| 336 | THE MOST AGGRESSIVE HORROR GAME | [Watch](https://youtube.com/watch?v=HLox7SZG200) |
+| 337 | A HAUNTED SHIP HORROR GAME | [Watch](https://youtube.com/watch?v=IRGVssMsfp0) |
+| 338 | Heavy Rain | [Watch](https://youtube.com/watch?v=ILmMBuZKeWs) |
+| 339 | HUNTING A GHOST | [Watch](https://youtube.com/watch?v=rJ-a9N2CVX4) |
+| 340 | The Black Ops Cold War Zombies Reveal Looks INCREDIBLE | [Watch](https://youtube.com/watch?v=0ULhboeICMI) |
+| 341 | I tried this psychological horror game | [Watch](https://youtube.com/watch?v=KSWCCHT0rOA) |
+| 342 | ZOMBIE WOLVERINE BOSS | [Watch](https://youtube.com/watch?v=ZauGZSBLZFs) |
+| 343 | SUMMONING CTHULHU in a Lovecraftian Horror Game | [Watch](https://youtube.com/watch?v=P2C7KZJc54E) |
+| 344 | IM GOING TO CRY | [Watch](https://youtube.com/watch?v=GBbS8zCX69Q) |
+| 345 | BABYSITTING A DEMON BABY | [Watch](https://youtube.com/watch?v=FX6WUlqQiCs) |
+| 346 | THIS BOSS GAVE ME NIGHTMARES | [Watch](https://youtube.com/watch?v=6Sc8fy1TwV8) |
+| 347 | EL GIGANTE BOSS 😱 | [Watch](https://youtube.com/watch?v=91jt1DeqcmE) |
+| 348 | Resident Evil 4: 15 YEARS LATER | [Watch](https://youtube.com/watch?v=tJ4RECOqUX4) |
+| 349 | THE GUY EVERYONE IS TERRIFIED OF | [Watch](https://youtube.com/watch?v=Wf_ISmeAkNc) |
+| 350 | THE OUTBREAK BEGINS | [Watch](https://youtube.com/watch?v=xql_SijvwqM) |
+| 351 | Outlast Ending | [Watch](https://youtube.com/watch?v=Zg_L0IOStjo) |
+| 352 | The New Ultra Realistic Horror Game | [Watch](https://youtube.com/watch?v=KLHvYXhT0fA) |
+| 353 | ROBBING A HOUSE BUT IT WAS HAUNTED | [Watch](https://youtube.com/watch?v=HJy6XuRroh8) |
+| 354 | Grounded | [Watch](https://youtube.com/watch?v=MI5FbWXVh9s) |
+| 355 | This Photo Realistic Game is DISTURBING | [Watch](https://youtube.com/watch?v=8A0166IOnE4) |
+| 356 | SHE IS LITERALLY CRAWLING and I dont know how to act | [Watch](https://youtube.com/watch?v=I8ZC_6CLcHA) |
+| 357 | Saints Row The Third Remastered | [Watch](https://youtube.com/watch?v=XW70mgyAg3A) |
+| 358 | Resident Evil 8: Village | [Watch](https://youtube.com/watch?v=D_5NbWV-1rU) |
+| 359 | LA NOIRE | [Watch](https://youtube.com/watch?v=6LJi7SqfbFg) |
+| 360 | MORTAL KOMBAT 10 STORY | [Watch](https://youtube.com/watch?v=Jf2nNoQcmSs) |
+| 361 | NO..NO..NO | [Watch](https://youtube.com/watch?v=dDMXOREw8u0) |
+| 362 | THE HAUNTED MINE CAVE | [Watch](https://youtube.com/watch?v=NEB1HRJFmjU) |
+| 363 | ITS SO GOOD | [Watch](https://youtube.com/watch?v=dAyosIQtsu0) |
+| 364 | OKAY, TOO MANY JUMPSCARES | [Watch](https://youtube.com/watch?v=INV-OI6TRN4) |
+| 365 | THEY ARE WATCHING US | [Watch](https://youtube.com/watch?v=SiXL7iNTUYs) |
+| 366 | THE ABANDONED FARMHOUSE | [Watch](https://youtube.com/watch?v=fMBsAT6ce_U) |
+| 367 | GOODBYE LEE 😢 | [Watch](https://youtube.com/watch?v=pj5eX86Z9sM) |
+| 368 | Indonesian Horror Games Are Terrifying | [Watch](https://youtube.com/watch?v=0nV2oBYg8uE) |
+| 369 | RUN RUN RUN | [Watch](https://youtube.com/watch?v=WZFY3lD6Hwo) |
+| 370 | LEE'S SACRIFICE | [Watch](https://youtube.com/watch?v=JSl6kkNqFfo) |
+| 371 | THIS IS GOODBYE FOREVER | [Watch](https://youtube.com/watch?v=uPgEAZddQwQ) |
+| 372 | The Most REALISTIC Horror Game Ever | [Watch](https://youtube.com/watch?v=dJS8v9hlk7A) |
+| 373 | THE BEGINNING OF SOMETHING STRANGE | [Watch](https://youtube.com/watch?v=sQl5VPoayjs) |
+| 374 | WELCOME TO THE INSANE ASYLUM | [Watch](https://youtube.com/watch?v=7lQk_7ofZqs) |
+| 375 | SO.. I Played a Japanese Horror Game | [Watch](https://youtube.com/watch?v=RY3M0Jx3V_I) |
+| 376 | LEE GOT BITTEN 😢 | [Watch](https://youtube.com/watch?v=wulhVpwndpE) |
+| 377 | I QUIT | [Watch](https://youtube.com/watch?v=qshZJ4Z8cbY) |
+| 378 | THE TITANIC BUT ITS HAUNTED | [Watch](https://youtube.com/watch?v=j6W4ync4UdQ) |
+| 379 | SHES WALKING ON WALLS | [Watch](https://youtube.com/watch?v=84CAk3oR_6A) |
+| 380 | THE BOY ZOMBIE 😢 | [Watch](https://youtube.com/watch?v=wegga5FZe0M) |
+| 381 | The New Photo Realistic HORROR GAME | [Watch](https://youtube.com/watch?v=99rkgo0koMs) |
+| 382 | TEARS OF SADNESS 😢 | [Watch](https://youtube.com/watch?v=-k3R7Vmh5SM) |
+| 383 | OUR GROUP IS FALLING APART 😢 | [Watch](https://youtube.com/watch?v=gHycGfPPhUs) |
+| 384 | I HATE JUMPSCARES | [Watch](https://youtube.com/watch?v=DQi9FfGnb9A) |
+| 385 | A VERY CREEPY ENDING | [Watch](https://youtube.com/watch?v=A_dBFNOvugQ) |
+| 386 | STARVING FOR FOOD | [Watch](https://youtube.com/watch?v=UP80NLo2rUg) |
+| 387 | THE ENDING | [Watch](https://youtube.com/watch?v=7_theaz-45w) |
+| 388 | RESCUING GLENN | [Watch](https://youtube.com/watch?v=YF7ChArkSU0) |
+| 389 | THE ZOMBIE ATTACK | [Watch](https://youtube.com/watch?v=jCAEtNKB2KY) |
+| 390 | 8 YEARS LATER | [Watch](https://youtube.com/watch?v=P-4T4d8V0N4) |
+| 391 | YOUNG BATMAN IS SCARY | [Watch](https://youtube.com/watch?v=YL8xKxI02eU) |
+| 392 | ITS REAL | [Watch](https://youtube.com/watch?v=N1a_d-tn83o) |
+| 393 | ZOMBIES | [Watch](https://youtube.com/watch?v=Bz2VqtXIlKg) |
+| 394 | Death Stranding | [Watch](https://youtube.com/watch?v=9YWNRt5Abac) |
+| 395 | HUNTING THE CREEPY PROFESSOR PYG | [Watch](https://youtube.com/watch?v=fk30u8SMLV8) |
+| 396 | THE FUNNIEST GAME OF 2019 | [Watch](https://youtube.com/watch?v=dui_eZ55Xxk) |
+| 397 | WORST JUMPSCARE EVER | [Watch](https://youtube.com/watch?v=YfuCNGEF-WA) |
+| 398 | GEARS 5 | [Watch](https://youtube.com/watch?v=WriY5TO97vU) |
+| 399 | Man of Medan | [Watch](https://youtube.com/watch?v=zUBhXQeLZIY) |
+| 400 | THE GHOST SHIP | [Watch](https://youtube.com/watch?v=Z8gNS4BHpbc) |
+| 401 | THE JUMPSCARES DONT STOP | [Watch](https://youtube.com/watch?v=sOnk8hb0L1o) |
+| 402 | NEW DYING LIGHT 2 | [Watch](https://youtube.com/watch?v=qaNBgstqalg) |
+| 403 | The Most Realistic HORROR GAME | [Watch](https://youtube.com/watch?v=aQ3_JCtFaVg) |
+| 404 | A SAD ENDING | [Watch](https://youtube.com/watch?v=hwvkEkCvYyk) |
+| 405 | THE BEGINNING | [Watch](https://youtube.com/watch?v=Qvw34gNQK0E) |
+| 406 | THIS ENDING WAS AMAZING😫 | [Watch](https://youtube.com/watch?v=weOi0T9-k7E) |
+| 407 | SAVE ELLIE NO MATTER WHAT | [Watch](https://youtube.com/watch?v=EAjab9bAN4M) |
+| 408 | TAKEN 😱 | [Watch](https://youtube.com/watch?v=zHW1l7Bjzqw) |
+| 409 | JOEL AND ELLIE FOREVER | [Watch](https://youtube.com/watch?v=MB0PE-SdqO0) |
+| 410 | The NEW Zombie Mai Tai Camo...💀 | [Watch](https://youtube.com/watch?v=ZQgu1gxkRXo) |
+| 411 | SAM'S BIT 😥 | [Watch](https://youtube.com/watch?v=DnTFtTpSCIU) |
+| 412 | THE LOST ISLAND | [Watch](https://youtube.com/watch?v=uRN8B5PyINA) |
+| 413 | ELLIE SAVES JOEL | [Watch](https://youtube.com/watch?v=LxJThkjaP9s) |
+| 414 | MY FIRST BLOATER BOSS FIGHT😱 | [Watch](https://youtube.com/watch?v=Hei_bL-eyBE) |
+| 415 | DEATH | [Watch](https://youtube.com/watch?v=pUHAawbvybk) |
+| 416 | The Last of Us: 6 YEARS LATER | [Watch](https://youtube.com/watch?v=CNyCRI4TamE) |
+| 417 | MY NEPHEWS FIRST TIME | [Watch](https://youtube.com/watch?v=xAzzdQUtI5c) |
+| 418 | THE MOST TERRIFYING CO-OP HORROR GAME | [Watch](https://youtube.com/watch?v=jkJZzFKY800) |
+| 419 | THE ABANDONED MALL | [Watch](https://youtube.com/watch?v=5_Gr1GfACy0) |
+| 420 | WELCOME TO RUSSIA | [Watch](https://youtube.com/watch?v=htCy9HlSPfE) |
+| 421 | NUKED ALL THE ZOMBIES | [Watch](https://youtube.com/watch?v=WRjTSwnKQPY) |
+| 422 | 1 PLAYER VS 1 MILLION ZOMBIES | [Watch](https://youtube.com/watch?v=8hu4XKUUCzs) |
+| 423 | UNLIMITED ZOMBIES | [Watch](https://youtube.com/watch?v=WmSVa9yoOnM) |
+| 424 | THE ZOMBIE APOCOLYPSE IS HERE | [Watch](https://youtube.com/watch?v=Dt_-bZ-XS_E) |
+| 425 | My First Game on Blackout ALCATRAZ | [Watch](https://youtube.com/watch?v=xtudIM0YqCE) |
+| 426 | IT ALL ENDS HERE | [Watch](https://youtube.com/watch?v=kH0CKyFm7x0) |
+| 427 | So I Played The Michael Jackson HORROR GAME | [Watch](https://youtube.com/watch?v=mdi95J58UtA) |
+| 428 | DANTE TRANSFORMS | [Watch](https://youtube.com/watch?v=CLRDO6YAZn8) |
+| 429 | SECRET ENDING / BOSS FIGHT | [Watch](https://youtube.com/watch?v=MkjJ9C2iqfc) |
+| 430 | INFECTED | [Watch](https://youtube.com/watch?v=b-A0hFJbThQ) |
+| 431 | THE UNDERGROUND | [Watch](https://youtube.com/watch?v=KADKFExweyM) |
+| 432 | ESCAPING THE ORPHANAGE | [Watch](https://youtube.com/watch?v=IGDJ0RMUQyQ) |
+| 433 | DAUGHTER OF A MONSTER | [Watch](https://youtube.com/watch?v=Ul2bJM7b018) |
+| 434 | CLAIRE REDFIELD | [Watch](https://youtube.com/watch?v=HxAhUXct1h8) |
+| 435 | FINAL TYRANT BOSS FIGHT | [Watch](https://youtube.com/watch?v=R0tyFNdEp_g) |
+| 436 | FINAL G-VIRUS BOSS | [Watch](https://youtube.com/watch?v=UHyDu9pI7TA) |
+| 437 | SHE WANTS IT | [Watch](https://youtube.com/watch?v=CptCQr05J64) |
+| 438 | WHAT THE HECK IS THIS | [Watch](https://youtube.com/watch?v=EzH76pky5mg) |
+| 439 | CHASED BY AN ALLIGATOR | [Watch](https://youtube.com/watch?v=VtITapT7rno) |
+| 440 | MR. X IS HERE | [Watch](https://youtube.com/watch?v=NMbGTkhnp14) |
+| 441 | MY FIRST BOSS FIGHT | [Watch](https://youtube.com/watch?v=ZuGRCUH7zFQ) |
+| 442 | THE LICKER | [Watch](https://youtube.com/watch?v=Cwh1AA7ArLA) |
+| 443 | THE HORROR BEGINS | [Watch](https://youtube.com/watch?v=9oVjNuD__6k) |
+| 444 | LEE | [Watch](https://youtube.com/watch?v=wWfduE56AJg) |
+| 445 | TORTURE | [Watch](https://youtube.com/watch?v=K-pjJ9QKjXU) |
+| 446 | ITS TERRIFYING | [Watch](https://youtube.com/watch?v=FViQBbldr4U) |
+| 447 | THIS IS ACTUALLY CREEPY | [Watch](https://youtube.com/watch?v=juGhH07pgMc) |
+| 448 | WE ARE NOT WANTED HERE | [Watch](https://youtube.com/watch?v=zaWgrL40zsA) |
+| 449 | The Forest: 2019 | [Watch](https://youtube.com/watch?v=sVVm1l18Ce0) |
+| 450 | SURVIVING THE NIGHT..| Last Year: The Nightmare | [Watch](https://youtube.com/watch?v=eD98UDUxB8M) |
+| 451 | ALL WEAPON CAMOS in Call of Duty Black Ops 4 (Blackout, Multiplayer, Zombies) | [Watch](https://youtube.com/watch?v=QlDWWOappQQ) |
+| 452 | NO GAME SHOULD EVER BE THIS SCARY | [Watch](https://youtube.com/watch?v=sV1jyu7u9KM) |
+| 453 | The Conjuring House | [Watch](https://youtube.com/watch?v=Rt7tXgnGAnE) |
+| 454 | AN ALL OUT WAR | [Watch](https://youtube.com/watch?v=S9NskFtZr7Y) |
+| 455 | CLEMENTINE'S KISS | [Watch](https://youtube.com/watch?v=Jsw9xwFpzDw) |
+| 456 | THIS WONT END WELL | [Watch](https://youtube.com/watch?v=6kQ3XRzp4g4) |
+| 457 | The most terrifying game experience I've ever had | [Watch](https://youtube.com/watch?v=GqNYs9AJjCY) |
+| 458 | JUMP SCARES EVERYWHERE | [Watch](https://youtube.com/watch?v=LryGjbaHgdE) |
+| 459 | FINALLY.. Black Ops 4 Blackout Player Count Confirmed (Map Images and More) | [Watch](https://youtube.com/watch?v=o5eaaFomOi8) |
+| 460 | The Walking Dead: The Final Season | [Watch](https://youtube.com/watch?v=4CYfCo3skDA) |
+| 461 | Call of Duty: Black Ops 4 BLACKOUT | [Watch](https://youtube.com/watch?v=xoPdBTYtJ6c) |
+| 462 | "Follow The Treasure Map Found in Haunted Hills" FORTNITE MAP LOCATION | [Watch](https://youtube.com/watch?v=GDFsK4NdF9Y) |
+| 463 | Resident Evil 2 Remake Reveal Trailer | [Watch](https://youtube.com/watch?v=sOQfy6gDQiw) |
+| 464 | The Last of Us 2 GAMEPLAY | [Watch](https://youtube.com/watch?v=u4Jx6tZ5Eco) |
+| 465 | The Walking Dead | [Watch](https://youtube.com/watch?v=iR5il0vAWMU) |
+| 466 | THE CREEPY BASEMENT | [Watch](https://youtube.com/watch?v=ctE1h4UxLPo) |
+| 467 | SCARY CRIME SCENE | [Watch](https://youtube.com/watch?v=fg8_2aq-4iQ) |
+| 468 | WITCH OF THE FOREST | [Watch](https://youtube.com/watch?v=dfJqjpw4e1c) |
+| 469 | Rainbow Six Siege OUTBREAK GAMEPLAY (Mission | [Watch](https://youtube.com/watch?v=nrfuUpIyr4I) |
+| 470 | The Forest: 4 YEARS LATER | [Watch](https://youtube.com/watch?v=xBdJNUucBUQ) |
+| 471 | Demon Echo goes flawless | [Watch](https://youtube.com/watch?v=sNPzfKwIr9A) |
+| 472 | My FIRST ALIEN ENCOUNTER | [Watch](https://youtube.com/watch?v=2fCi2L3lQS8) |
+| 473 | I AM NOT ALONE HERE | [Watch](https://youtube.com/watch?v=iLd7MWs5BGE) |
+| 474 | Alien Isolation: YEARS LATER | [Watch](https://youtube.com/watch?v=UvxpzLxHb2k) |
+| 475 | THE ENDING IS INSANE..! Resident Evil 7 | [Watch](https://youtube.com/watch?v=6EZ_e-bbWIk) |
+| 476 | Call of Duty World War 2: ALL Weapons,Maps,Zombies *LEAKED* | [Watch](https://youtube.com/watch?v=WzaZ7MRDnYI) |
+| 477 | FANS ARE PISSED OFF | [Watch](https://youtube.com/watch?v=wJSYOPk0c80) |
+| 478 | Call of Duty WW2 ZOMBIES TRAILER REACTION! (Breakdown) | [Watch](https://youtube.com/watch?v=BSZllMGqv90) |
+| 479 | RIP ZOMBIES | [Watch](https://youtube.com/watch?v=R47ZFWI-TwY) |
+| 480 | COD WW2 ZOMBIES | [Watch](https://youtube.com/watch?v=1egTe7hdRQs) |
+| 481 | I quit | [Watch](https://youtube.com/watch?v=kBbq70VQWeQ) |
+| 482 | CHASE THE LITTLE GIRL!! (Outlast 2 | [Watch](https://youtube.com/watch?v=4XKFUuSa8zc) |
+| 483 | WHAT NOT TO DO When Playing OUTLAST 2 | [Watch](https://youtube.com/watch?v=33JCO-eJB2s) |
+| 484 | Just Had A Near DEATH EXPERIENCE (Outlast 2 | [Watch](https://youtube.com/watch?v=MY2J6XDlbDU) |
+| 485 | BANNED FOOTAGE | [Watch](https://youtube.com/watch?v=c52BH_8mZ98) |
+| 486 | My house is haunted | [Watch](https://youtube.com/watch?v=G9H9lA2PAYc) |
+| 487 | THE END of Resident Evil 7 | [Watch](https://youtube.com/watch?v=RuApes7M-FE) |
+| 488 | THE TRUTH REVEALED in Resident Evil 7 | [Watch](https://youtube.com/watch?v=pUfux6iDyMc) |
+| 489 | What NOT TO DO When Playing Resident Evil 7 | [Watch](https://youtube.com/watch?v=WlyLuDiUSk4) |
+| 490 | WATCH A GROWN MAN SH*T HIMSELF | [Watch](https://youtube.com/watch?v=Biv87c7Hzos) |
+| 491 | F*CK OFF GRANDMA | [Watch](https://youtube.com/watch?v=M9ohFtm38cg) |
+| 492 | THIS IS WHY YOU SHOULD NOT PLAY Resident Evil 7 | [Watch](https://youtube.com/watch?v=TRB06OTqq2A) |
+| 493 | I ALMOST CRIED! "Resident Evil 7" | [Watch](https://youtube.com/watch?v=2AEEUjIv00w) |
+| 494 | so I played.. Hello Neighbor (ALPHA 3) | [Watch](https://youtube.com/watch?v=xWXV5SM-kEk) |
+| 495 | AFGHAN RETURNS in DLC 1 | [Watch](https://youtube.com/watch?v=w1FYWitILwY) |
+| 496 | finally.. Infinite Warfare DLC 1 | [Watch](https://youtube.com/watch?v=EDHo0EFqh9E) |
+| 497 | the NEW CHRISTMAS MAP in Black Ops 3 (MOD) | [Watch](https://youtube.com/watch?v=WsNG61_bMUk) |
+| 498 | wtf... ALL MY CAMOS ARE UNLOCKED | [Watch](https://youtube.com/watch?v=CT0SI8cuFsw) |
+| 499 | R.I.P | [Watch](https://youtube.com/watch?v=FnfTwlFCgaM) |
+| 500 | HOLY SH*T! ZOMBIES Supply Drops | [Watch](https://youtube.com/watch?v=E5jmEvgGlDY) |
+| 501 | INTERVENTION GAMEPLAY on Zombies in SpaceLand | [Watch](https://youtube.com/watch?v=bR71Wm0s9kg) |
+| 502 | FU*K THESE CLOWNS (Until Dawn Rush of Blood) Playstation VR | [Watch](https://youtube.com/watch?v=UvqNAKMonDQ) |
+| 503 | MY 1ST HORRIBLE EXPERIENCE! "Five Nights At Freddy's Sister Location" | [Watch](https://youtube.com/watch?v=_4Enb7LDuA4) |
+| 504 | soo... I PLAYED OUTLAST 2 | [Watch](https://youtube.com/watch?v=euaQSfE6Mao) |
+| 505 | *NEW* FREE SECRET "LUCID Weapon Camo" in Black Ops 3 (DLC 4) | [Watch](https://youtube.com/watch?v=EDy5wq8LaxU) |
+| 506 | THIS CANT BE Black Ops 3 | [Watch](https://youtube.com/watch?v=56JR4k6VLOY) |
+| 507 | STANDOFF RETURNS! "NEW DLC 4" Maps + ZOMBIES Revelations | [Watch](https://youtube.com/watch?v=OHMYad7_mQs) |
+| 508 | Black Ops 3: DLC 4 "SALVATION" ZOMBIES ONLY!? | [Watch](https://youtube.com/watch?v=v6ss2rAvy0o) |
+| 509 | Infinite Warfare ZOMBIES TRAILER "ZOMBIES in SPACE" | [Watch](https://youtube.com/watch?v=ZBIshQ6mk2I) |
+| 510 | "Infinite Warfare ZOMBIES" CHARACTERS REVEALED | [Watch](https://youtube.com/watch?v=t2uUtig7Njg) |
+| 511 | SURVIVING A ZOMBIE APOCALYPSE in The Walking Dead | [Watch](https://youtube.com/watch?v=HavFgmsiVOc) |
+| 512 | so this is "ZOMBIES MOD TOOLS" | [Watch](https://youtube.com/watch?v=ymRUXX4C3jI) |
+| 513 | "ZOMBIES" IN INFINITE WARFARE | [Watch](https://youtube.com/watch?v=2tZGi_wdiS0) |
+| 514 | SCARY "INFINITE WARFARE" TEASER | [Watch](https://youtube.com/watch?v=5ZJUxwkqMM8) |
+| 515 | NEW ZOMBIES MAP "Zetsubou No Shima" GAMEPLAY | [Watch](https://youtube.com/watch?v=gZZm449EgOE) |
+| 516 | NEW GOD GUN COMING TO Black Ops 3!?!? | [Watch](https://youtube.com/watch?v=vBvPddzI3wA) |
+| 517 | NEW Black Ops 3 "DLC 2 ECLIPSE" | [Watch](https://youtube.com/watch?v=TPyiy61j6R0) |
+| 518 | "DLC 2" ZOMBIES LEAK in Black Ops 3 | [Watch](https://youtube.com/watch?v=IVI23a5PBIk) |
+| 519 | "BUFFED ASSAULT RIFLES" | [Watch](https://youtube.com/watch?v=0L2o0Km0HnE) |
+| 520 | "SKELETON ZOMBIES" EASTER EGG! Black Ops 3 | [Watch](https://youtube.com/watch?v=diDF_kPeQhU) |
+| 521 | NEW "DARK MATTER" COLORS Black Ops 3 | [Watch](https://youtube.com/watch?v=erA5g1JY6Tw) |
+| 522 | WORLDS WORST ZOMBIES PLAYER | [Watch](https://youtube.com/watch?v=TCKrrrEyMi8) |
+| 523 | NEW ZOMBIES "DEATH MACHINE GAMEPLAY" | [Watch](https://youtube.com/watch?v=D2HrHyDoE7I) |
+| 524 | WARNING: TOP 5 "BEST HORROR" EMBLEMS in Black Ops 3! BO3 MOST Creative Emblems In Call Of Duty EVER | [Watch](https://youtube.com/watch?v=MmUgHtBV93g) |
+| 525 | NEW MP40 In BLACK OPS 3 | [Watch](https://youtube.com/watch?v=rqriM9cgGb4) |
+| 526 | NEW "BOWIE KNIFE GAMEPLAY" In BLACK OPS 3 | [Watch](https://youtube.com/watch?v=VUWoYkFtrpg) |
+| 527 | HIJACKED RETURNS! BLACK OPS 3 "AWAKENING" DLC 1 | [Watch](https://youtube.com/watch?v=GlRB-63QAIo) |
+| 528 | WTF! Worlds Fastest Zombies | [Watch](https://youtube.com/watch?v=6XEYeEBaJpw) |
+| 529 | BLACK OPS 3 MODS & CREAT A MAP | [Watch](https://youtube.com/watch?v=mKqdHXsbSU8) |
+| 530 | ONLY The BRAVE Will Watch This. (HORROR Story) | [Watch](https://youtube.com/watch?v=VkF3l2MqrUw) |
+| 531 | BLACK OPS 3 Will NOT HAVE Campaign/PaintShop Mode On LAST GEN (XBOX 360/PS3) BO3 Multiplayer News | [Watch](https://youtube.com/watch?v=FfJdr45cU-w) |
+| 532 | COD AW DLC 4 Reckoning RELEASE DATE | [Watch](https://youtube.com/watch?v=zJPBe4021oM) |
+| 533 | COD AW: LEAKED DLC 4 Zombies "DESCENT" Underwater Map News & Info | [Watch](https://youtube.com/watch?v=pJArEBLAelY) |
+| 534 | COD BO3 Zombies NEW ELECTRIC SWORD + Flying RIOT SHIELD | [Watch](https://youtube.com/watch?v=G-d9ZWrIBrc) |
+| 535 | COD "Black Ops 3" Safe House Features To Be In BO3 Multiplayer, Zombies & Campaign! (BO 3 News) | [Watch](https://youtube.com/watch?v=z-22F00ZC6k) |
+| 536 | "Monkey Bomb" Teaser | [Watch](https://youtube.com/watch?v=MAw-KCyROHQ) |
+| 537 | NEW "Black Ops 3 ZOMBIES Image Teased" | [Watch](https://youtube.com/watch?v=VVWgakwspkw) |
+| 538 | DLC 4 "Reckoning" Leaked Info | [Watch](https://youtube.com/watch?v=_cKQ0O5cwbo) |
+| 539 | ZOMBIE SHARK! EXO Zombies DLC 3 "Carrier" Supremacy Images | [Watch](https://youtube.com/watch?v=sSqhbPGu7J4) |
+| 540 | "MONKEY BOMB" "Cybal Monkey" Returns To COD "Black Ops 3" BO3 ZOMBIES (News & Info) | [Watch](https://youtube.com/watch?v=0lzipaQIAos) |
+| 541 | LEAKED ZOMBiES Map! "ARK" + NEW Underwater MAP? DLC 3/ DLC 4 | [Watch](https://youtube.com/watch?v=lfFtjNEZ9xU) |
+| 542 | Black Ops 3: Thrust Jumps, Specialist Characters, Co-Op Campaign, Zombies & MORE! (COD BO3 News) | [Watch](https://youtube.com/watch?v=IdSplmtDpn4) |
+| 543 | "Black Ops 3" Weapons List LEAKED? | [Watch](https://youtube.com/watch?v=gC0zFTjzNIw) |
+| 544 | ''Black Ops 3'' Zombies LEAKED Info? 8 Player Mode, & More | [Watch](https://youtube.com/watch?v=OIngrC-CTbs) |
+| 545 | COD AW: Exo Zombies ''Infection'' Zombie Boss | [Watch](https://youtube.com/watch?v=OnQcHMijWHY) |
+| 546 | INSANE NEW ELiTE ''BioHazard'' EXO Suit &Camo In Advanced Warfare | [Watch](https://youtube.com/watch?v=9EHSq4OcKfo) |
+| 547 | COD AW: Exo Zombies ''Infection'' TRAILER! (Call of Duty Advanced Warfare DLC 2 Ascendance) | [Watch](https://youtube.com/watch?v=uvFBW7LT_o8) |
+| 548 | COD AW: Ascendance DLC 2 TRAILER REVEALED | [Watch](https://youtube.com/watch?v=Qar83BQR4t0) |
+| 549 | COD AW: NEW EXO Zombies ''INFECTION'' Map Images | [Watch](https://youtube.com/watch?v=X30eOJvYklA) |
+| 550 | COD AW: DLC 2 Ascendance NEW Zombies!? | [Watch](https://youtube.com/watch?v=INsNpy2yhRE) |
+| 551 | CoD AW: Exo Zombies | [Watch](https://youtube.com/watch?v=C7D_oJy_TUI) |
+
+## Single Videos - Unidentified Games (223 titles)
+
+These videos have clickbait/descriptive titles where the game name isn't mentioned.
+Running the scraper with `--deep` (captions) or `--anthropic-key` (AI) can identify these.
+
+| # | Video Title | Link |
+|---|------------|------|
+| 1 | A Cinematic Horror Set in the Appalachian Forest | [Watch](https://youtube.com/watch?v=E8tvr9pjggc) |
+| 2 | A Horror Game Where You Go Camping Deep Into a State Park | [Watch](https://youtube.com/watch?v=dxGniExOkJE) |
+| 3 | A cozy lake fishing horror | [Watch](https://youtube.com/watch?v=t_4hmui0FpU) |
+| 4 | Creepy Late Night Shift at Uncle Joe's Motel | [Watch](https://youtube.com/watch?v=kjgnBo5aR0E) |
+| 5 | A Park Rangers Final Night Shift | [Watch](https://youtube.com/watch?v=SQOYnIR4Zjc) |
+| 6 | Steam Recommended This New Body-Cam Horror | [Watch](https://youtube.com/watch?v=R0F7oxJ8Log) |
+| 7 | Locals Say People Have Been Disappearing Deep in these Woods | [Watch](https://youtube.com/watch?v=SdBp-ZV3b9A) |
+| 8 | This Hyper-Realistic Horror Just Unlocked a New Fear | [Watch](https://youtube.com/watch?v=IW4e6wFNoG8) |
+| 9 | A Chilling New Open World Fishing Horror From Chilla's Art | [Watch](https://youtube.com/watch?v=kGmfNuBHAd4) |
+| 10 | This horror game had me on a CHOKEHOLD | [Watch](https://youtube.com/watch?v=R00-2Gaa0uY) |
+| 11 | I Took a Night Shift at a 24-Hour Store Where Customers are Not Human | [Watch](https://youtube.com/watch?v=jpOW6n2lL5E) |
+| 12 | A Horror Game Where You Run A Photo Studio | [Watch](https://youtube.com/watch?v=BnakKNzsf0M) |
+| 13 | The most disturbing chinese horror game I've played | [Watch](https://youtube.com/watch?v=0Duttf78-74) |
+| 14 | Working The Cemetery Shift Was a Mistake | [Watch](https://youtube.com/watch?v=oiP8rJKJghA) |
+| 15 | Working Late Nightshift on a Fishing Boat | [Watch](https://youtube.com/watch?v=KWzlgqUrUqw) |
+| 16 | A Game About The Dark Side of Social Media | [Watch](https://youtube.com/watch?v=qyBuxDJOE7Q) |
+| 17 | I Returned to the Island Where My Father Disappeared | [Watch](https://youtube.com/watch?v=Z26EHKazsJo) |
+| 18 | They Released a New Action Survival Horror | [Watch](https://youtube.com/watch?v=BxvWNfeQEQo) |
+| 19 | Working Late For The Holidays | [Watch](https://youtube.com/watch?v=9M1UW5RSVsY) |
+| 20 | I took a vacation in a cozy cottage but I was not alone | [Watch](https://youtube.com/watch?v=zLnejrFuTUk) |
+| 21 | This game was flat out DIABOLICAL | [Watch](https://youtube.com/watch?v=fwBXClaDUeU) |
+| 22 | Play as a prisoner who must play a deadly game of Russian Roulette in order to escape | [Watch](https://youtube.com/watch?v=NKYbuiqiyS4) |
+| 23 | I've never felt this uncomfortable playing a game | [Watch](https://youtube.com/watch?v=vhG91KJilIg) |
+| 24 | A Quiet Motel Getaway With Babe Turns Deadly | [Watch](https://youtube.com/watch?v=HJgdJpvj8EY) |
+| 25 | I'm Exhausted After This One | [Watch](https://youtube.com/watch?v=Vj7El6SA5xQ) |
+| 26 | A Disturbing Horror Game About a Family Haunted by the Paranormal | [Watch](https://youtube.com/watch?v=xtq6U8ZDczU) |
+| 27 | A Horror Game About Being Abandoned in Deep Space | [Watch](https://youtube.com/watch?v=NkZaRjCkfok) |
+| 28 | A HORROR GAME WHERE YOU CONSUME BRAINROT CONTENT AND GO CRAZY | [Watch](https://youtube.com/watch?v=PaGLMruKbGw) |
+| 29 | A Freaky Night With Babe | [Watch](https://youtube.com/watch?v=NZDkQAEEKn8) |
+| 30 | Working Nightshift at the Arcade | [Watch](https://youtube.com/watch?v=aHr6QA2zKHM) |
+| 31 | They Made A Filipino Horror Game Based on True Events | [Watch](https://youtube.com/watch?v=nyMMc9ZoJcw) |
+| 32 | This was an unhealthy amount of jumpscares | [Watch](https://youtube.com/watch?v=g1qfEVB_3o0) |
+| 33 | This Hyper-Realistic Horror Game Just Blew My Mind | [Watch](https://youtube.com/watch?v=U3jtkhX9TGw) |
+| 34 | This is the most demonic horror game I've ever played | [Watch](https://youtube.com/watch?v=k0Vxw1zd0xU) |
+| 35 | This game just destroyed me | [Watch](https://youtube.com/watch?v=hIvCLYkMpBw) |
+| 36 | A Halloween Home Invasion Horror | [Watch](https://youtube.com/watch?v=ErXKdtXSztQ) |
+| 37 | This PT Inspired Horror Game is Diabolical | [Watch](https://youtube.com/watch?v=XNb4ZROqcjE) |
+| 38 | Working The Supermarket..But The Customers Are NOT HUMAN | [Watch](https://youtube.com/watch?v=PmHyTSUfYK0) |
+| 39 | Gas Station Night Shift Gone Wrong | [Watch](https://youtube.com/watch?v=tdD56bpIy_U) |
+| 40 | A Camcorder Horror Where You Investigate a Missing Students Case | [Watch](https://youtube.com/watch?v=57oXC1p1zxE) |
+| 41 | I Just Moved Into a New Apartment..But The Landlord is a FREAK | [Watch](https://youtube.com/watch?v=vgq9omcpYGk) |
+| 42 | They Made A New Michael Myers Horror Game | [Watch](https://youtube.com/watch?v=Z4ZObFe1Y-o) |
+| 43 | I Took A Park Ranger Job to Investigate the Missing Hikers | [Watch](https://youtube.com/watch?v=_j_7Egoxf_8) |
+| 44 | This Lighthouse Keeper Horror Game Gave Me Chills | [Watch](https://youtube.com/watch?v=Gys2s9vszGs) |
+| 45 | Working the Nightshift, But He Followed Me Home | [Watch](https://youtube.com/watch?v=_1iLjPIV2PQ) |
+| 46 | Something is Wrong With Grandpa's Cabin | [Watch](https://youtube.com/watch?v=5AlN6GfqCxI) |
+| 47 | A Horror Game Where 5 Friends Take Their Last Road Trip | [Watch](https://youtube.com/watch?v=wseklMTE2pM) |
+| 48 | An Incredible New Bodycam Horror Game | [Watch](https://youtube.com/watch?v=7vMh1PAE3Kw) |
+| 49 | I Shouldn’t Have Stayed The Night Here | [Watch](https://youtube.com/watch?v=HKFM2621Ovw) |
+| 50 | IM DONE thats enough horror for me | [Watch](https://youtube.com/watch?v=kKRkHlSvs2c) |
+| 51 | I cant take it | [Watch](https://youtube.com/watch?v=qOiRDvU07Do) |
+| 52 | I hate it here | [Watch](https://youtube.com/watch?v=2yD_BgPzb7k) |
+| 53 | Working as a Night Shift Park Ranger | [Watch](https://youtube.com/watch?v=p8BdqOAPMgY) |
+| 54 | This Horror Game is Seriously DISTURBING | [Watch](https://youtube.com/watch?v=toWhVh4bWNU) |
+| 55 | Night Shift at a Roadside Cafe | [Watch](https://youtube.com/watch?v=Lk2Upd6soyI) |
+| 56 | A Man Cannot Escape His House in This Psychological Horror Game | [Watch](https://youtube.com/watch?v=TDmH-2Zs9_8) |
+| 57 | A New Jurassic Park Inspired Horror Game | [Watch](https://youtube.com/watch?v=0dR0M2PXG9w) |
+| 58 | This Chinese Horror Game Just Destroyed Me | [Watch](https://youtube.com/watch?v=IFLOMTY1jgU) |
+| 59 | A Hyper-Realistic Horror Game About Escaping A Bad Dream | [Watch](https://youtube.com/watch?v=nwM0XZryduo) |
+| 60 | A new VHS horror game about a cop who goes on a cold case | [Watch](https://youtube.com/watch?v=pKIqxj1iSAw) |
+| 61 | Someone made a new PT inspired horror game | [Watch](https://youtube.com/watch?v=uQZuDqx1mFc) |
+| 62 | Working Late.. But the Customers Aren’t Human | [Watch](https://youtube.com/watch?v=6NXFM8QMV4E) |
+| 63 | This new zombie survival game is actually FREE | [Watch](https://youtube.com/watch?v=MMH5E3VXHak) |
+| 64 | A New Japanese Horror Game Based on Urban Legends | [Watch](https://youtube.com/watch?v=0J8zdPP6-Ew) |
+| 65 | A horror game where you go camping the countryside | [Watch](https://youtube.com/watch?v=lfRAGc-v160) |
+| 66 | This might be the CRAZIEST Sleep Paralysis Horror Game | [Watch](https://youtube.com/watch?v=9pBpjStNOVE) |
+| 67 | This game is stressing me out | [Watch](https://youtube.com/watch?v=se1z_Xd7n9s) |
+| 68 | A Horror Game about a Paranormal Ghost Hunt | [Watch](https://youtube.com/watch?v=FATIt_2O2as) |
+| 69 | Going back to my childhood home | [Watch](https://youtube.com/watch?v=OcedKcjfqOg) |
+| 70 | this game BROKE ME | [Watch](https://youtube.com/watch?v=CsgtTDt7LgQ) |
+| 71 | The paranormal apartment | [Watch](https://youtube.com/watch?v=dVJ7Dx2fs3E) |
+| 72 | Surviving A Post-Apocalyptic Cyberpunk Horror | [Watch](https://youtube.com/watch?v=QOShuB8X9Es) |
+| 73 | A horror game where you work cleaning up a murder | [Watch](https://youtube.com/watch?v=tTbLQ50gy4U) |
+| 74 | Working Late at a Food Kiosk | [Watch](https://youtube.com/watch?v=pcIywlRg8qM) |
+| 75 | A new photorealistic horror experience | [Watch](https://youtube.com/watch?v=hrFZQdOBaNY) |
+| 76 | Night shift at a roadside diner | [Watch](https://youtube.com/watch?v=qiTJw9tPomE) |
+| 77 | A Simulator Horror Where You Work Fixing a Haunted House | [Watch](https://youtube.com/watch?v=jrhzHYP7S2c) |
+| 78 | This creepy stalker from work followed me home | [Watch](https://youtube.com/watch?v=6CC7XVsRBLI) |
+| 79 | One of the best Lovecraftian horror games I've ever played | [Watch](https://youtube.com/watch?v=F121hbh0HYQ) |
+| 80 | Im a paranormal detective investigating the abandoned Gilman family | [Watch](https://youtube.com/watch?v=EoUOaUX3b1M) |
+| 81 | A horror game about INSOMNIA | [Watch](https://youtube.com/watch?v=cAncxsUmUQg) |
+| 82 | INCREDIBLE NEW UFO HORROR | [Watch](https://youtube.com/watch?v=HiTMqck-NUk) |
+| 83 | A disturbing horror game about THE DARK WEB | [Watch](https://youtube.com/watch?v=9x_xJWT-Tjs) |
+| 84 | This game messed me up | [Watch](https://youtube.com/watch?v=K8ESg2IlNk0) |
+| 85 | This game is going straight into my recycle bin | [Watch](https://youtube.com/watch?v=HwImE-_Qd7k) |
+| 86 | They actually made a SPIDER HORROR GAME | [Watch](https://youtube.com/watch?v=apVCUvTHnDc) |
+| 87 | A new crazy psychological horror | [Watch](https://youtube.com/watch?v=ws7S3Mv3-4k) |
+| 88 | Working the night shift as a delivery man | [Watch](https://youtube.com/watch?v=hQh1Svc-YUE) |
+| 89 | I rented a cabin in the woods | [Watch](https://youtube.com/watch?v=lLl_V2PiAbg) |
+| 90 | Im being stalked | [Watch](https://youtube.com/watch?v=0bwHUDKl_8A) |
+| 91 | In search for my daughter in this chinese manor | [Watch](https://youtube.com/watch?v=kWVFfleU6nw) |
+| 92 | Sometimes its safer not to play these horror games | [Watch](https://youtube.com/watch?v=Z0gI-WyCxoI) |
+| 93 | Camping overnight at an abandoned manor | [Watch](https://youtube.com/watch?v=W-2FHYhcN2w) |
+| 94 | Play as a little kid with teraphobia | [Watch](https://youtube.com/watch?v=6oVJ0AE02no) |
+| 95 | A new zombie survival horror | [Watch](https://youtube.com/watch?v=MYKQpkxV9hs) |
+| 96 | Shipwrecked on an abandoned Island | [Watch](https://youtube.com/watch?v=6d4RBdcngp0) |
+| 97 | Overnight at the cabin in the woods | [Watch](https://youtube.com/watch?v=qxT0nWOT4DY) |
+| 98 | well.. this game was disturbing | [Watch](https://youtube.com/watch?v=9RG6Tu1St0o) |
+| 99 | Night shift at The Motel | [Watch](https://youtube.com/watch?v=0knSV40x3go) |
+| 100 | A horror game about the deep sea | [Watch](https://youtube.com/watch?v=v1VdnzC2-Go) |
+| 101 | A cozy nightshift serving burgers at the Kiosk | [Watch](https://youtube.com/watch?v=CHtpc5t67wI) |
+| 102 | This horror game just CHEWED ME UP | [Watch](https://youtube.com/watch?v=QHP-lXr34uk) |
+| 103 | A New SCP Horror Game Where You're Stranded on Mars | [Watch](https://youtube.com/watch?v=RuHsY6SbjGw) |
+| 104 | NAH.. this horror game is nasty work | [Watch](https://youtube.com/watch?v=-vcuHEcK1Dg) |
+| 105 | 0% chance im playing this game again | [Watch](https://youtube.com/watch?v=iAY2hApXj1U) |
+| 106 | Human Ritual at the Gas Station | [Watch](https://youtube.com/watch?v=qcYmj88otpY) |
+| 107 | The most disturbing game I've played in a long time | [Watch](https://youtube.com/watch?v=UAm-9e8RGmQ) |
+| 108 | One of the best horror games I've played this year | [Watch](https://youtube.com/watch?v=_bz7DkFNMUs) |
+| 109 | They Made A Santa Claus Horror Game | [Watch](https://youtube.com/watch?v=SR6BdPQ72Gw) |
+| 110 | Working at the Cabin Factory | [Watch](https://youtube.com/watch?v=OSSlSRWbfFs) |
+| 111 | Working a CREEPY job in the mountains | [Watch](https://youtube.com/watch?v=SRJjUni3qUY) |
+| 112 | An Incredible New Zombie Outbreak Survival Game | [Watch](https://youtube.com/watch?v=y7CNnalXC_E) |
+| 113 | A cozy home invasion horror | [Watch](https://youtube.com/watch?v=Y422e3L0y2U) |
+| 114 | A horror game where you are a sniper assassin | [Watch](https://youtube.com/watch?v=k_f8a1movCk) |
+| 115 | I Got A Shady Job Working at a Haunted Doll Factory | [Watch](https://youtube.com/watch?v=yT5dUSapP_Q) |
+| 116 | A Horror Game About Vietnamese Urban Legends..| The Scourge | [Watch](https://youtube.com/watch?v=bYkl4HIWUGg) |
+| 117 | A Quiet Place The Road Ahead | [Watch](https://youtube.com/watch?v=zvb85ZjZ14U) |
+| 118 | Working a Disturbing Water Delivery Job in the Countryside | [Watch](https://youtube.com/watch?v=PzpWnS5Knos) |
+| 119 | An incredible survival horror game set in a dystopian future | [Watch](https://youtube.com/watch?v=IT-zWl5bkEQ) |
+| 120 | Never Working at a Japanese Bathhouse | [Watch](https://youtube.com/watch?v=aFllLNRwR_E) |
+| 121 | This horror game broke my heart | [Watch](https://youtube.com/watch?v=hObzFayLoq0) |
+| 122 | an incredible farming simulator horror | [Watch](https://youtube.com/watch?v=vEeBaRSA004) |
+| 123 | A security guard's final hours at a new york subway station | [Watch](https://youtube.com/watch?v=8EOjvl1r4y8) |
+| 124 | A horror game where you work the night shift serving burgers | [Watch](https://youtube.com/watch?v=OK4BkBMau8U) |
+| 125 | Working the night shift at a haunted pizzeria | [Watch](https://youtube.com/watch?v=N1KQjic7Ubg) |
+| 126 | This is One of the Best Horror Games I've Played | [Watch](https://youtube.com/watch?v=wU5aAGp9OIg) |
+| 127 | I hate myself for ever playing this game | [Watch](https://youtube.com/watch?v=0HxKAq67vUg) |
+| 128 | A Sinister Game About Working The Night Shift as a Garbage Man | [Watch](https://youtube.com/watch?v=FjoDOAw1AlI) |
+| 129 | This Game Has MY KNEES WEAK | [Watch](https://youtube.com/watch?v=46XkwNQPOeM) |
+| 130 | NAH, this game is too much | [Watch](https://youtube.com/watch?v=OJ-8bRfAdpY) |
+| 131 | Play as a cop in this photorealistic body cam horror thats listens to you | [Watch](https://youtube.com/watch?v=CIojLwM5S7s) |
+| 132 | Im Deleting This Game IMMEDIATELY | [Watch](https://youtube.com/watch?v=m3DBsnrNGLk) |
+| 133 | A Horror Game Where You Play as a Mentally ill Father | [Watch](https://youtube.com/watch?v=HiFOqbWuuSk) |
+| 134 | A Horror Game Where You've Been Kidnapped By A Cannibal Family | [Watch](https://youtube.com/watch?v=gsLleqqQ0Og) |
+| 135 | Working as a telephone operator finding disturbing anomalies | [Watch](https://youtube.com/watch?v=q_gtUY3i3RQ) |
+| 136 | Working in a 1980s Movie Theater, But Theres A Killer On The Loose | [Watch](https://youtube.com/watch?v=bflKO9lwY_I) |
+| 137 | A horror game where you are stranded in space with your dying crew | [Watch](https://youtube.com/watch?v=LcSeYWF83dQ) |
+| 138 | A disturbing horror game based on a true story | [Watch](https://youtube.com/watch?v=XWwjiqPXNjE) |
+| 139 | This horror game just DAMAGED my soul | [Watch](https://youtube.com/watch?v=iKE48TekBwc) |
+| 140 | This horror game damaged me inside | [Watch](https://youtube.com/watch?v=dMOtufHD3so) |
+| 141 | A horror game about working at a cemetery | [Watch](https://youtube.com/watch?v=sF2MVsoQI5Q) |
+| 142 | A horror game where you take care of your sick sister | [Watch](https://youtube.com/watch?v=Csn36weAaic) |
+| 143 | a horror game about a kidnap incident | [Watch](https://youtube.com/watch?v=p3Aj1iIZzpc) |
+| 144 | WAIT.. they made a new dinosaur horror game | [Watch](https://youtube.com/watch?v=z_sdJEyWv3U) |
+| 145 | A horror game about an obssessive EX-BOYFRIEND | [Watch](https://youtube.com/watch?v=OqugE0qv1yQ) |
+| 146 | this horror game was made by a 13 year old | [Watch](https://youtube.com/watch?v=LJUjqyVOcgE) |
+| 147 | A horror game about being BURIED ALIVE | [Watch](https://youtube.com/watch?v=Gxaprrgd2kM) |
+| 148 | A PARK RANGER SURVIVAL HORROR | [Watch](https://youtube.com/watch?v=ZMiB87_aPmw) |
+| 149 | HELP.. This creepy stalker broke into my apartment | [Watch](https://youtube.com/watch?v=-BfiPHxaxyU) |
+| 150 | A NEW MASCOT HORROR GAME | [Watch](https://youtube.com/watch?v=8-zX0D3RxVQ) |
+| 151 | GREAT.. a new body cam horror game | [Watch](https://youtube.com/watch?v=IIjGS5yRkxM) |
+| 152 | This horror game just DELETED my soul | [Watch](https://youtube.com/watch?v=DQLC25Auav4) |
+| 153 | A new PT inspired psycological horror game | [Watch](https://youtube.com/watch?v=b_qv7ZA8s-I) |
+| 154 | I never wanna see this game again | [Watch](https://youtube.com/watch?v=4_TvcFVZ6OA) |
+| 155 | A NEW UFO HORROR GAME | [Watch](https://youtube.com/watch?v=rUalOEhBhZI) |
+| 156 | Should have NEVER downloaded this game | [Watch](https://youtube.com/watch?v=winH6gB8aVo) |
+| 157 | a new Backrooms realistic horror | [Watch](https://youtube.com/watch?v=1PaWWBI2X08) |
+| 158 | I really need to delete this game | [Watch](https://youtube.com/watch?v=zD9kHv9XOXw) |
+| 159 | they made a Garfield Horror Game | [Watch](https://youtube.com/watch?v=L-dK87uRk-E) |
+| 160 | This horror game ended my existence | [Watch](https://youtube.com/watch?v=LFiL9QbdIu4) |
+| 161 | Why do I keep coming back to this game | [Watch](https://youtube.com/watch?v=0phnm2ZhmaE) |
+| 162 | A new hyper realistic ghost horror game | [Watch](https://youtube.com/watch?v=YXYIRo2GQ4Q) |
+| 163 | I CANT BELIEVE MY EYES | [Watch](https://youtube.com/watch?v=QzGci1HK_bQ) |
+| 164 | They made another P.T clone | [Watch](https://youtube.com/watch?v=IDun7Cw2EyA) |
+| 165 | This game needs to CHILL | [Watch](https://youtube.com/watch?v=IMl2VFuV1YQ) |
+| 166 | A NEW TAIWANESE HORROR GAME | [Watch](https://youtube.com/watch?v=6GVeKSTQ9Cw) |
+| 167 | YUP.. This game is terrifying | [Watch](https://youtube.com/watch?v=K-iSgLeyfxw) |
+| 168 | THEY MADE A NEW SPONGEBOB HORROR GAME | [Watch](https://youtube.com/watch?v=-BMcTT49IZM) |
+| 169 | im never playing VHS horror games again | [Watch](https://youtube.com/watch?v=Yok4OAYujkw) |
+| 170 | THE SCARIEST GAME OF 2022 | [Watch](https://youtube.com/watch?v=qew2O7Rxp3Q) |
+| 171 | YEAH.. this game was a bad idea | [Watch](https://youtube.com/watch?v=51d4dgDHERE) |
+| 172 | I Paid $3 For This Horror Game | [Watch](https://youtube.com/watch?v=ORkOf02j1So) |
+| 173 | never working The Closing Shift | [Watch](https://youtube.com/watch?v=dBCC7r701V8) |
+| 174 | GREAT.. a new psycological horror game | [Watch](https://youtube.com/watch?v=III0_L1NBiE) |
+| 175 | working the nightshift at a MORGUE | [Watch](https://youtube.com/watch?v=sieczJHSlGQ) |
+| 176 | a new photorealistic horror game | [Watch](https://youtube.com/watch?v=tXn3wXxeuQQ) |
+| 177 | OKAY..this games is disturbing | [Watch](https://youtube.com/watch?v=KoQA4b_y04E) |
+| 178 | Why did they make this game | [Watch](https://youtube.com/watch?v=ntkf_ODvvnc) |
+| 179 | Im being stalked by a KIDNAPPER | [Watch](https://youtube.com/watch?v=ozyuAVw4So0) |
+| 180 | Working the nightshift at a haunted SECURITY BOOTH | [Watch](https://youtube.com/watch?v=f2ig09OqhLY) |
+| 181 | This game was banned from the internet | [Watch](https://youtube.com/watch?v=kWAi-d2k5kM) |
+| 182 | WHY DID YOU GUYS TELL ME TO PLAY THIS GAME | [Watch](https://youtube.com/watch?v=n80vxAXHEro) |
+| 183 | Going into a haunted mineshaft but now I cant get out | [Watch](https://youtube.com/watch?v=_0uF5pkw83Y) |
+| 184 | Never working The Night Shift again | [Watch](https://youtube.com/watch?v=dF7Eo06QD54) |
+| 185 | I bought a new house BUT SHE LIVES HERE | [Watch](https://youtube.com/watch?v=2Qy_CibjD68) |
+| 186 | I PAID $2 for this horror game | [Watch](https://youtube.com/watch?v=BpDwYS4fcd0) |
+| 187 | IM SORRY.. but i cant keep doing this | [Watch](https://youtube.com/watch?v=u_GQQG5YVhc) |
+| 188 | THIS GAME RUINED ME | [Watch](https://youtube.com/watch?v=YUN5WV5lbZQ) |
+| 189 | THIS GAME REALLY JUST ENDED LIKE THIS | [Watch](https://youtube.com/watch?v=XWUTqu47sds) |
+| 190 | WHAT AN INCREDIBLE ENDING | [Watch](https://youtube.com/watch?v=b_Oe0wqyF-0) |
+| 191 | THE SCARIEST GAME OF 2021 | [Watch](https://youtube.com/watch?v=y0Chl_C7GZk) |
+| 192 | THIS WAS A MISTAKE | [Watch](https://youtube.com/watch?v=3pJBRH1Pl0s) |
+| 193 | This game belongs in hell | [Watch](https://youtube.com/watch?v=9v8j-3Od2f4) |
+| 194 | This was a terrible idea | [Watch](https://youtube.com/watch?v=Vhd6fTfXdfg) |
+| 195 | YEAH this game is cursed | [Watch](https://youtube.com/watch?v=3VLw5yNk2GQ) |
+| 196 | I Regret Every Second of This Game | [Watch](https://youtube.com/watch?v=CVPJPqXy3G4) |
+| 197 | This New Zombie Survival Game Looks AMAZING | [Watch](https://youtube.com/watch?v=Up5P-03YJ9M) |
+| 198 | Working overnight at a morgue | [Watch](https://youtube.com/watch?v=Fa5zqGJzJRw) |
+| 199 | SCARIEST GAME OF 2020 | [Watch](https://youtube.com/watch?v=YIuKY9OSZIc) |
+| 200 | IM NEVER TOUCHING THIS GAME AGAIN | [Watch](https://youtube.com/watch?v=cMxvraQG2o8) |
+| 201 | I will now delete this game | [Watch](https://youtube.com/watch?v=tanYr4cDSqE) |
+| 202 | I PLAYED A NEW PSYCHOLOGICAL HORROR GAME | [Watch](https://youtube.com/watch?v=9z_m6XDckyg) |
+| 203 | I CANT BELIEVE THIS | [Watch](https://youtube.com/watch?v=9ECgJ97jTls) |
+| 204 | THIS GAME IS PLAYING WITH MY MIND | [Watch](https://youtube.com/watch?v=v6NEmDMNoQA) |
+| 205 | THIS GAME HAS ME PARANOID | [Watch](https://youtube.com/watch?v=W3dEyt44CZ4) |
+| 206 | THIS GAME IS TWISTED | [Watch](https://youtube.com/watch?v=A-MLnTL0EVM) |
+| 207 | Everyone Said This Game is TERRIFYING | [Watch](https://youtube.com/watch?v=Yy2ParDuZQM) |
+| 208 | THIS GAME HAS MENTALLY BROKEN ME | [Watch](https://youtube.com/watch?v=dCRZztvN6ro) |
+| 209 | This Horror Game Did Things To Me I CANNOT EXPLAIN | [Watch](https://youtube.com/watch?v=MLqZqQ1V-uA) |
+| 210 | Im never playing this game again | [Watch](https://youtube.com/watch?v=cFkKnVzLBjg) |
+| 211 | This Game is HILARIOUS | [Watch](https://youtube.com/watch?v=7WqfSV5h1-s) |
+| 212 | THIS GAME IS GETTING CREEPY | [Watch](https://youtube.com/watch?v=WdczUDz2kUI) |
+| 213 | THIS GAME IS TERRIFYING | [Watch](https://youtube.com/watch?v=_wOvexFww_Q) |
+| 214 | THIS GAME IS PLAYING WITH MY FEELINGS 😫 | [Watch](https://youtube.com/watch?v=eTNK0Jqabik) |
+| 215 | IM OFFICIALLY SCARED OF THIS GAME | [Watch](https://youtube.com/watch?v=mI5IWRz5vE8) |
+| 216 | THIS GAME IS SO BEAUTIFUL | [Watch](https://youtube.com/watch?v=6X0A6fXI-LI) |
+| 217 | PLAYING THIS WAS A MISTAKE | [Watch](https://youtube.com/watch?v=2kyMFmPltcU) |
+| 218 | I CANT STOP CRYING | [Watch](https://youtube.com/watch?v=lm0fESBsaaI) |
+| 219 | Playing this game was a mistake | [Watch](https://youtube.com/watch?v=scj27AMECKg) |
+| 220 | The DEVIL MADE THIS GAME!! Resident Evil 7 | [Watch](https://youtube.com/watch?v=qyGf548Nd_M) |
+| 221 | I SHOULD HAVE NOT PLAYED THIS GAME "RESIDENT EVIL 7" BIOHAZARD | [Watch](https://youtube.com/watch?v=dHkbazBchF4) |
+| 222 | F*CK THIS GAME | [Watch](https://youtube.com/watch?v=ZQNJNdZ_YAU) |
+| 223 | F**K This Game is SCARY | [Watch](https://youtube.com/watch?v=nauKWeQ8PdU) |
 
 -----
 
-## Confirmed Horror Games Played
+## Statistics
 
-The following games have been confirmed through web research (articles, fan lists, forum recommendations, video title references, and curated lists). Games are organized by confidence level and category.
-
-### Tier 1: Directly Confirmed (named in articles, curated lists, or video titles)
-
-| # | Game Title | Horror Type | Status | Source/Notes |
-|---|-----------|-------------|--------|-------------|
-| 1 | **MADiSON** | Psychological horror, jump scares | Full Walkthrough (3+ hours) | Confirmed by Screen Rant, Benable list. Anxiety-inducing Polaroid camera horror. |
-| 2 | **REVEIL** | Psychological thriller / horror | Full Game | Video title: "This is One of the Best Horror Games I've Played.. - REVEIL (FULL GAME)" |
-| 3 | **Dead Space** (likely Remake, 2023) | Sci-fi survival horror | Full Playthrough | Confirmed on Benable list. Claustrophobic setting, dismemberment combat. Screen Rant confirms Dead Space remake walkthrough. |
-| 4 | **Resident Evil 7: Biohazard** | Survival horror, first-person | Full Walkthrough (5 parts) | Screen Rant confirms split over five parts; "worth the watch for jump-scares alone." |
-| 5 | **Resident Evil Village (RE8)** | Gothic survival horror | Full Playthrough | Confirmed on Benable list. Gothic setting with monstrous creatures. |
-| 6 | **Outlast** | Stealth horror (run and hide) | Full Playthrough | Confirmed on Benable list. No combat, pure stealth survival. |
-| 7 | **The Last of Us** | Post-apocalyptic survival horror | Full Playthrough | Confirmed on Benable list. Character-driven, emotional depth. |
-| 8 | **Amenti** | Psychological horror, Egyptian setting | Full Playthrough | Video title: "One Of The Scariest Games I've Ever Played... (Amenti)". DarkPhobia Games title about pyramids/ancient Egypt. |
-| 9 | **Case Records: Fear of Abduction** | Mystery/horror | Played | Referenced in channel descriptions. Play as a 17-year-old female student solving missing person mysteries. |
-| 10 | **From the Darkness** | Psychological horror (P.T.-like) | Full Game | Video title: "The Scariest Game of 2021" (posted April 4, 2021). Soviet apartment setting. |
-| 11 | **Dead Rising Deluxe Remaster** | Zombie survival horror/action | Full Game | Video title: "Dead Rising Deluxe Remaster - Surviving A Zombie Outbreak (FULL GAME)" |
-| 12 | **Puppet Combo's Taxi Simulator (SkinFREAK)** | Slasher horror, PS1-style | Played | Video title: "Puppet Combo's New TAXI SIMULATOR HORROR GAME IS PEAK!" |
-| 13 | **The Mortuary Assistant** | Paranormal horror / simulation | Played | Confirmed on Benable list. Mortuary tasks with demonic possession and unpredictable scares. |
-| 14 | **The Wolf Among Us** | Dark fantasy / noir mystery | Played | Confirmed on Benable list. Interactive mystery based on Fables comics. |
-| 15 | **The Callisto Protocol** | Sci-fi body horror | Full Playthrough | Confirmed on Benable list and TV Tropes forum. Space prison survival horror. |
-| 16 | **Visage** | Psychological horror (P.T.-inspired) | Full Playthrough | Video title: "NO GAME SHOULD EVER BE THIS SCARY \| Visage" (~933K views). |
-| 17 | **Silent Hill 2 Remake** | Psychological survival horror | Played | Praised on X/Twitter: "f*kng amazing. 10/..." |
-| 18 | **Resident Evil 4 Remake** (+ Separate Ways DLC) | Survival horror / action | Completed | Tweeted "FINISHED Resident Evil 4 Remake Seperate Ways DLC" (Sept 2023). |
-| 19 | **Unreal PT** (P.T. fan recreation) | Psychological horror | Played | Video: "Playing this game was a mistake.." (~25 min). Called it "The Scariest game I have ever played in 2019." |
-| 20 | **FNAF VR: Help Wanted** | Jump scare / animatronic horror | Played | Played with nephew; tweeted about experience. |
-| 21 | **Hellmart** | Survival horror / indie | Full Game | Video: "I Spent 7 Days in HELLMART.." Convenience store survival horror. |
-
-### Tier 2: Confirmed via TV Tropes Fan Recommendation (attributed to HollowPoiint and/or CoryxKenshin)
-
-These games were listed in a TV Tropes forum post by a viewer who watched playthroughs across both HollowPoiint's and CoryxKenshin's channels. While the specific attribution between the two channels is not always clear, the poster confirmed watching these on HollowPoiint's channel:
-
-| # | Game Title | Horror Type | Notes |
-|---|-----------|-------------|-------|
-| 22 | **Tattletail** | Mascot horror, jump scares | Christmas 1998 setting; Mama Tattletail hunts you. |
-| 23 | **Granny** | Escape-room survival horror | Stealth horror, escaping a house. |
-| 24 | **Dark Deception** | Action horror, maze runner | Fast-paced maze horror with monsters. |
-| 25 | **Choo-Choo Charles** | Open-world horror | Spider-train monster hybrid. |
-| 26 | **Nun Massacre** | Slasher horror (PS1-style) | Puppet Combo title; retro slasher. |
-| 27 | **Bloodwash** | Slasher horror (PS1-style) | Puppet Combo/Jordan King; laundromat slasher. |
-| 28 | **Poppy Playtime** | Mascot horror, puzzle | Factory escape with Huggy Wuggy. |
-| 29 | **Trenches** | War/horror | WWI trench horror setting. |
-| 30 | **Amanda the Adventurer** | Psychological horror, indie | Creepy children's TV show mystery. |
-| 31 | **Silver Chains** | Supernatural horror | Haunted mansion, first-person exploration. |
-| 32 | **Crimson Snow** | Supernatural horror | Christmas horror; demonic ex-girlfriend. |
-| 33 | **Scrutinized** | Thriller/horror | Surveillance and investigation horror. |
-| 34 | **The Beast Inside** | Psychological horror | Dual-timeline thriller with puzzles. |
-| 35 | **Do You Copy?** | Indie horror | Fire lookout tower horror. |
-| 36 | **Home Sweet Home** | Thai supernatural horror | First-person stealth horror based on Thai folklore. |
-| 37 | **The Radio Station** | Indie horror | Short-form atmospheric horror. |
-| 38 | **House on the Hill** | Horror | Exploration-based horror. |
-| 39 | **Twelve Minutes** | Psychological thriller | Time-loop mystery thriller (horror-adjacent). |
-| 40 | **Firewatch** | Mystery/thriller | Atmospheric mystery (horror-adjacent; psychological tension). |
-| 41 | **What Remains of Edith Finch** | Dark narrative / walking simulator | Death-themed family mystery (horror-adjacent). |
-| 42 | **The Vanishing of Ethan Carter** | Mystery / supernatural | Paranormal detective walking simulator. |
-
-### Tier 3: Strongly Implied from Benable List Descriptions (unnamed but described)
-
-The Benable list "Horror Games Played By Youtuber Hollow" contained descriptions without explicit game names. Best guesses based on descriptions:
-
-| # | Description from Benable | Likely Game | Horror Type |
-|---|-------------------------|-------------|-------------|
-| 43 | "An intense horror game of 2025, based on an isolated oil rig gradually collapsing after a gruesome discovery below" | **Still Wakes the Deep** (released June 2024, oil rig horror) | Cosmic/survival horror |
-| 44 | "An episodic psychological horror series inspired by true events, low-poly throwback graphical style" | **Fears to Fathom** (episodic, true-event-based, low-poly) | Psychological horror |
-| 45 | "A recent indie horror game, worker on the night shift, mounting sense of paranoia, mundane tasks" | **The Night Shift** or **Night Shift** (Puppet Combo) | Indie horror |
-| 46 | "An AI realtor guides you through a virtual open house, '90s-style interface, uncanny dread" | **Open House** (or similar short exploration horror) | Exploration horror |
-| 47 | "A fairytale psychological horror, disturbingly beautiful graphics, varying creatures" | **Little Nightmares** or **Fobia** or similar | Fairytale psychological horror |
-| 48 | "A Backrooms game, first-person view, claustrophobic and disorienting environment" | **The Backrooms** (one of several Backrooms games) | Liminal space horror |
-| 49 | "A brilliant first-person survival horror, surviving horrifying events using limited resources" | **Outlast 2** or **Alien: Isolation** or similar | First-person survival horror |
-| 50 | "A space prison survival horror game, viral outbreak, body horror" | **The Callisto Protocol** (confirmed separately) | Sci-fi body horror |
-
-### Additional Referenced/Likely Horror Content
-
-Based on HollowPoiint being described as a prolific horror game player with 6,700+ videos, and his channel bio stating "I play all types of video games... from beginning to ending," the following are games mentioned across various sources that he has likely covered:
-
-- **Outlast Trials** (mentioned on Benable list as Outlast content)
-- **Fears to Fathom** series (multiple episodes; TV Tropes poster looked forward to further installments)
-- **They Are Here: Alien Abduction Horror** (TV Tropes poster awaiting full playthrough)
-- **Anemoiapolis** (TV Tropes poster awaiting full playthrough)
-- **High on Life** (listed in TV Tropes post; sci-fi comedy with horror elements)
-- **Graveyard Shift** (DarkPhobia Games; same developer as Amenti)
-- **Homeless** (DarkPhobia Games; same developer as Amenti)
+- **Total channel videos scanned**: 6,750
+- **Horror videos identified**: 1,080 (16% of channel)
+- **Unique game titles**: 824
+- **Full playthrough series (3+ parts)**: 41
+- **Multi-part content (2 parts)**: 9
+- **Single video games**: 774
+  - Identified: 551
+  - Unidentified (clickbait titles): 223
+- **Detection method**: Layer 1 keyword matching on titles/descriptions
 
 -----
 
-## Summary Statistics
+## Methodology
 
-- **Total confirmed horror/horror-adjacent games**: 50+ titles
-- **Full playthroughs confirmed**: At least 21
-- **Horror subgenres covered**: Psychological horror, survival horror, sci-fi horror, slasher horror, mascot horror, supernatural horror, body horror, cosmic horror, Gothic horror, stealth horror, indie/experimental horror
-- **Most-viewed horror video**: "I'm never playing this game again.." (~8M views, posted June 20, 2018)
-- **Content style**: Thorough walkthroughs, typically full games, with live reactions and commentary
+This list was generated by `scrape_horror_games.py` which:
+1. Scraped all 6,750 videos from the channel via scrapetube
+2. Matched titles and descriptions against 100+ horror keywords
+3. Deduplicated game titles (merged case variants, PS5 remasters, etc.)
 
------
+### To identify the remaining unidentified games:
+```bash
+# Pull YouTube auto-captions and search for game names
+python3 scrape_horror_games.py --deep
 
-## Research Methodology
-
-This list was compiled on March 29, 2026 using the following web search strategies:
-1. "HollowPoiint horror games" -- general searches
-2. "HollowPoiint scary games" -- playlist/content searches
-3. "HollowPoiint horror walkthrough" -- specific walkthrough searches
-4. Site-specific YouTube searches
-5. Specific game title searches (MADiSON, REVEIL, Resident Evil, Dead Space, etc.)
-6. Fan-curated lists (Benable.com, TV Tropes forums)
-7. Profile/bio pages (Screen Rant, Sportskeeda, Tubefilter, FresherPost, FamousBirthdays)
-8. Cross-referencing horror game titles with HollowPoiint's known content
-
-### Key Sources
-- [Screen Rant - Best Horror Game Walkthroughs](https://screenrant.com/youtubers-best-horror-game-walkthroughs/)
-- [Benable - Horror Games Played By Youtuber Hollow](https://benable.com/uwf28j/horror-games-played-by-youtuber-hollow)
-- [TV Tropes Forum - Let's Play Recommendations](https://tvtropes.org/pmwiki/posts.php?discussion=13864076310A95981000&page=2)
-- [Beacons - Top 10 Horror Game Youtubers](https://beacons.ai/i/blog/horror-game-youtubers)
-- [Sportskeeda - Hollow Profile](https://wiki.sportskeeda.com/youtube/who-is-hollow)
-- [Tubefilter - Creators Going Pro](https://www.tubefilter.com/2019/03/06/creators-going-pro-hollow/)
-- [FresherPost - HollowPoiint Bio](https://fresherpost.com/hollowpoiint/)
-- [Sider.ai - Amenti Video Summary](https://sider.ai/create/video/ai-video-shortener/explore/4fb2761f-7efd-411d-b979-c214b3ca3a82)
-- [HollowPoiint on X/Twitter - RE4 Separate Ways](https://twitter.com/HollowPoiint/status/1705216315613438323)
-- [HollowPoiint on X/Twitter - Silent Hill 2 Remake](https://x.com/HollowPoiint/status/1842964155898454355)
-- [HollowPoiint on X/Twitter - FNAF VR](https://x.com/hollowpoiint/status/1134844675322449921)
-- [Twin Galaxies - Hellmart](https://www.twingalaxies.com/newsDetails/6334)
-- [Famous Birthdays - HollowPoiint](https://www.famousbirthdays.com/people/hollowpoiint.html)
+# Use Claude AI to classify remaining unknowns
+python3 scrape_horror_games.py --deep --anthropic-key sk-ant-...
+```
 
 -----
 
-## Limitations
-
-- HollowPoiint has 6,700+ videos; only a fraction are indexed by external sources. The actual number of horror games played is almost certainly much larger than this list.
-- Many web searches returned general horror game information rather than HollowPoiint-specific results due to his name not always being prominently indexed alongside specific game titles.
-- The Benable list contained game descriptions without explicit titles for several entries.
-- The TV Tropes source attributes some games to both HollowPoiint and CoryxKenshin without always distinguishing which channel covered which game.
-- For a truly comprehensive list, direct YouTube channel scraping via the YouTube Data API or yt-dlp would be required.
-
------
-
-## Last Updated
-
-March 29, 2026
-
-**Status**: PARTIAL - Contains 50+ confirmed/strongly implied titles. Full channel audit via scraper would likely reveal many more.
+**Last Updated**: April 1, 2026
