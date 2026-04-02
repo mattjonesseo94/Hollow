@@ -3,10 +3,11 @@
 **Channel**: [@hollowpoiint](https://www.youtube.com/@hollowpoiint)
 **Creator**: Rey Gonzalez
 **Total Videos Scanned**: 6,750
-**Horror Videos Found**: 1,080
-**Unique Game Titles**: 824 (after deduplication)
+**Horror Videos Found**: 1,096
+**Unique Game Titles**: 840 (after deduplication)
+**Detection**: L1=1080 keywords, L2=0 captions, L3=16 AI
 
-*Auto-generated from full channel scrape on April 1, 2026*
+*Auto-generated from full channel scrape + deep analysis on April 2, 2026*
 
 -----
 
@@ -69,6 +70,29 @@
 | 7 | **SOMA** | [SOMA #2 - He's CHASING ME!](https://youtube.com/watch?v=Db9vrNIDi0Q) |
 | 8 | **Cronos The New Dawn** | [Cronos The New Dawn - Part 1 - A NEW POST APOCALYPTIC HORROR..](https://youtube.com/watch?v=ApETYHFs7vs) |
 | 9 | **Still Wakes The Deep** | [Still Wakes The Deep: Sirens Rest - FULL GAME](https://youtube.com/watch?v=_ETg4P7J-E0) |
+
+## AI-Identified Games (16 titles)
+
+These games were identified by Claude AI from video captions/context where the title didn't name the game.
+
+| # | Game | Original Video Title | Horror Type | Link |
+|---|------|---------------------|-------------|------|
+| 1 | **Within the Static: Northgate Mall** | Working The Security Shift at an Abandoned Mall.. | psychological horror, security guard simulator horror | [Watch](https://youtube.com/watch?v=3Tix92E5AD8) |
+| 2 | **Emotionless: The Last Ticket** | Looking For Dad in His Abandoned Amusement Park.. | psychological horror, adventure horror | [Watch](https://youtube.com/watch?v=DMbLS3ofjIs) |
+| 3 | **The House by the Sunflower Field** | Working Late at the House by the Sunflower Field.. | psychological horror, indie horror | [Watch](https://youtube.com/watch?v=PjEuUxKfT-Y) |
+| 4 | **Uncanny Tales: 1992** | The Missing Child Case of 1992.. | psychological horror, indie horror | [Watch](https://youtube.com/watch?v=H4JXjZCFQOU) |
+| 5 | **Pieces of Me** | Searching for My Sister in the Abandoned School | Pieces of Me | psychological horror / mystery horror | [Watch](https://youtube.com/watch?v=V8y-RIplfJQ) |
+| 6 | **Choo Choo Charles** | I finally played Choo Choo Charles.. | partial - creature horror with action-adventure elements | [Watch](https://youtube.com/watch?v=dxBBCObFK7s) |
+| 7 | **Late Night Shift** | Working a late night shift at the gas station.. | survival horror / atmospheric horror | [Watch](https://youtube.com/watch?v=gy9OOTB7VM8) |
+| 8 | **Radiolight** | The missing child case of Ashwood Creek.. | psychological thriller | [Watch](https://youtube.com/watch?v=iShzqr-0LPc) |
+| 9 | **Tales Beyond the Tomb: The Last Vigil** | Night Shift at the cemetery.. | psychological horror | [Watch](https://youtube.com/watch?v=-RvsvwxFReU) |
+| 10 | **Nightshift: Laundry** | Nightshift at a laundromat.. | indie horror | [Watch](https://youtube.com/watch?v=qE_QrNcfdBg) |
+| 11 | **No, I'm Not Human** | Keep FAKE humans from entering your house - No, Im Not Human | psychological horror, survival horror | [Watch](https://youtube.com/watch?v=Us1egsGVEaI) |
+| 12 | **Snap Snap** | Morgue journalism was a terrible idea.. | psychological horror | [Watch](https://youtube.com/watch?v=jt3G4rfNGV4) |
+| 13 | **The Dire** | I Went Vlogging Inside an Abandoned House.. | psychological horror / survival horror | [Watch](https://youtube.com/watch?v=5y0C9HNs83A) |
+| 14 | **Deadly Night** | DONT STAY THE NIGHT IN THIS MOTEL | Deadly Night | survival horror | [Watch](https://youtube.com/watch?v=-pmoxJj2ag0) |
+| 15 | **Emily Wants to Play** | SO.. I FINALLY PLAYED - Emily Wants To Play | indie horror | [Watch](https://youtube.com/watch?v=XwRhT3MkQBw) |
+| 16 | **S.T.A.L.K.E.R. 2: Heart of Chornobyl** | STALKER 2 TRAILER REACTION (Xbox Series X) | survival horror | [Watch](https://youtube.com/watch?v=OVxSPGDeRnM) |
 
 ## Single Videos - Identified Games (551 titles)
 
@@ -629,7 +653,7 @@
 ## Single Videos - Unidentified Games (223 titles)
 
 These videos have clickbait/descriptive titles where the game name isn't mentioned.
-Running the scraper with `--deep` (captions) or `--anthropic-key` (AI) can identify these.
+Running `--deep-all` or manually checking these videos can identify the remaining games.
 
 | # | Video Title | Link |
 |---|------------|------|
@@ -862,33 +886,19 @@ Running the scraper with `--deep` (captions) or `--anthropic-key` (AI) can ident
 ## Statistics
 
 - **Total channel videos scanned**: 6,750
-- **Horror videos identified**: 1,080 (16% of channel)
-- **Unique game titles**: 824
+- **Horror videos identified**: 1,096 (16% of channel)
+- **Unique game titles**: 840
 - **Full playthrough series (3+ parts)**: 41
 - **Multi-part content (2 parts)**: 9
-- **Single video games**: 774
-  - Identified: 551
+- **Single video games**: 790
+  - AI-identified (Layer 3): 16
+  - Named in title: 551
   - Unidentified (clickbait titles): 223
-- **Detection method**: Layer 1 keyword matching on titles/descriptions
+- **Detection breakdown**:
+  - Layer 1 (keyword matching): 1080 videos
+  - Layer 2 (caption analysis): 0 videos
+  - Layer 3 (Claude AI): 16 videos
 
 -----
 
-## Methodology
-
-This list was generated by `scrape_horror_games.py` which:
-1. Scraped all 6,750 videos from the channel via scrapetube
-2. Matched titles and descriptions against 100+ horror keywords
-3. Deduplicated game titles (merged case variants, PS5 remasters, etc.)
-
-### To identify the remaining unidentified games:
-```bash
-# Pull YouTube auto-captions and search for game names
-python3 scrape_horror_games.py --deep
-
-# Use Claude AI to classify remaining unknowns
-python3 scrape_horror_games.py --deep --anthropic-key sk-ant-...
-```
-
------
-
-**Last Updated**: April 1, 2026
+**Last Updated**: April 2, 2026
