@@ -95,6 +95,81 @@ CLICKBAIT_PATTERNS = [
     r"scared me",
     r"can'?t sleep",
     r"nightmare fuel",
+    r"night shift",
+    r"nightshift",
+    r"working late",
+    r"working the",
+    r"overnight at",
+    r"i rented a cabin",
+    r"cabin in the woods",
+    r"abandoned",
+    r"i took a .* job",
+    r"followed me home",
+    r"not human",
+    r"aren'?t human",
+    r"home invasion",
+    r"missing .* case",
+    r"serial killer",
+    r"stalker",
+    r"stalked",
+    r"im being stalked",
+    r"shouldn'?t have stayed",
+    r"was a mistake",
+    r"hyper.?realistic horror",
+    r"body.?cam horror",
+    r"bodycam horror",
+    r"vhs horror",
+    r"pt inspired",
+    r"jumpscares",
+    r"diabolical",
+    r"uncomfortable",
+    r"disturbing",
+    r"demonic",
+    r"this .* destroyed me",
+    r"blew my mind",
+    r"chokehold",
+    r"sleep paralysis",
+    r"park ranger",
+    r"went wrong",
+    r"gone wrong",
+    r"something is wrong",
+    r"new fear",
+    r"unlocked a .* fear",
+    r"i'?m exhausted",
+    r"i'?m done",
+    r"im done",
+    r"enough horror",
+    r"can'?t take it",
+    r"i cant take",
+    r"the customers",
+    r"paranormal",
+    r"ghost hunt",
+    r"haunted",
+    r"a horror game",
+    r"this horror",
+    r"new horror",
+    r"indie horror",
+    r"japanese horror",
+    r"chinese horror",
+    r"korean horror",
+    r"filipino horror",
+    r"based on true",
+    r"true events",
+    r"true story",
+    r"cold case",
+    r"missing hikers",
+    r"missing person",
+    r"disappearing",
+    r"lighthouse",
+    r"motel",
+    r"cemetery",
+    r"morgue",
+    r"mortuary",
+    r"asylum",
+    r"escape the",
+    r"trapped in",
+    r"i played a",
+    r"finally played",
 ]
 CLICKBAIT_RE = re.compile("|".join(CLICKBAIT_PATTERNS), re.IGNORECASE)
 
@@ -177,25 +252,71 @@ def analyze_captions_for_game(captions, title):
     if not captions:
         return None
 
-    # Common patterns: "welcome back to [game]", "playing [game]", etc.
+    # Check first ~3 mins of captions (where YouTubers usually name the game)
+    intro = captions[:3000]
+    full = captions[:8000]
+
+    # Patterns where YouTubers explicitly name the game
     intro_patterns = [
-        r"(?:welcome back to|playing|let'?s play|this is|today we'?re playing|we'?re playing)\s+([A-Z][A-Za-z0-9: '\-]+)",
-        r"(?:this game is called|the game is)\s+([A-Z][A-Za-z0-9: '\-]+)",
+        # Direct naming
+        r"(?:welcome back to|playing|let'?s play|this is|today we(?:'re| are) playing|we(?:'re| are) playing|jumping into|diving into|checking out|trying out|starting)\s+([A-Z][A-Za-z0-9:' \-\.]{2,40})",
+        r"(?:this game is called|the game is called|the game is|this game is|it'?s called)\s+([A-Z][A-Za-z0-9:' \-\.]{2,40})",
+        r"(?:we got|i got|playing some|back with|back to|return to|returning to|continuing)\s+([A-Z][A-Za-z0-9:' \-\.]{2,40})",
+        # Description link mentions
+        r"(?:link to|download|steam page|get the game|wishlist)\s+([A-Z][A-Za-z0-9:' \-\.]{2,40})",
     ]
 
+    candidates = []
     for pattern in intro_patterns:
-        match = re.search(pattern, captions[:2000])  # Check first ~2 mins
-        if match:
-            game = match.group(1).strip().rstrip(".,!")
-            if len(game) > 3 and game.lower() not in ("this", "the", "that", "a"):
-                return game
+        for match in re.finditer(pattern, intro):
+            game = match.group(1).strip().rstrip(".,!?;:")
+            # Filter out common false positives
+            skip_words = {"this", "the", "that", "a", "an", "my", "our", "your",
+                          "it", "so", "one", "some", "something", "guys",
+                          "man", "bro", "what", "yeah", "okay", "alright",
+                          "welcome", "back", "here", "today", "now",
+                          "episode", "part", "chapter"}
+            if len(game) > 3 and game.split()[0].lower() not in skip_words:
+                candidates.append(game)
 
-    # Also check for horror keywords in captions
-    kws = find_horror_keywords(captions[:5000])
-    if kws:
-        return None  # Has horror keywords but couldn't extract game name
+    # Also scan for known horror game names in full captions
+    known_games_in_captions = find_horror_keywords(full)
+    if known_games_in_captions:
+        # Return the most specific keyword match
+        longest = max(known_games_in_captions, key=len)
+        return longest.title()
+
+    # Return first candidate if we found any
+    if candidates:
+        return candidates[0]
 
     return None
+
+
+def analyze_captions_deep(captions, title):
+    """Deeper caption analysis: check for horror themes even without game name."""
+    if not captions:
+        return False, []
+
+    text = captions[:10000].lower()
+
+    # Horror atmosphere indicators in speech
+    horror_speech = [
+        "scared", "terrified", "oh my god", "what the", "jump scare",
+        "don't look", "behind you", "run run run", "no no no",
+        "i'm dead", "it's coming", "monster", "creature", "ghost",
+        "demon", "blood", "screaming", "help me", "get out",
+        "basement", "dark", "flashlight", "hide", "hiding",
+        "heartbeat", "breathing", "footsteps", "door locked",
+        "killed me", "she's coming", "he's coming", "it's here",
+        "ritual", "sacrifice", "possessed", "cursed", "haunted",
+        "nightmare", "asylum", "morgue", "cemetery", "grave",
+    ]
+
+    matches = [w for w in horror_speech if w in text]
+    # If 5+ horror speech indicators, it's likely horror
+    is_horror = len(matches) >= 5
+    return is_horror, matches
 
 
 # ---------------------------------------------------------------------------
@@ -212,16 +333,19 @@ def classify_with_claude(video_info, captions_snippet, api_key):
 
     client = anthropic.Anthropic(api_key=api_key)
 
-    prompt = f"""Analyze this YouTube gaming video and identify:
-1. The video game being played (exact title)
-2. Whether it's a horror game (yes/no/partial)
-3. The horror subgenre if applicable
+    game_hint = video_info.get("caption_game_guess", "")
+    hint_line = f"\nPossible game name from captions: {game_hint}" if game_hint else ""
+
+    prompt = f"""Analyze this YouTube gaming video from HollowPoiint's channel and identify:
+1. The exact video game being played (full official title)
+2. Whether it's a horror game (yes/no/partial - "partial" means horror elements but not primarily horror)
+3. The horror subgenre if applicable (e.g. survival horror, psychological horror, indie horror, co-op horror, etc.)
 
 Video title: {video_info['title']}
-Video description: {video_info.get('description', 'N/A')}
-Caption excerpt (first 1500 chars): {(captions_snippet or 'No captions available')[:1500]}
+Video description: {video_info.get('description', 'N/A')}{hint_line}
+Caption excerpt (first 2000 chars): {(captions_snippet or 'No captions available')[:2000]}
 
-Respond in JSON format:
+Respond ONLY with valid JSON, no other text:
 {{"game_title": "...", "is_horror": true/false, "horror_type": "...", "confidence": "high/medium/low"}}"""
 
     try:
@@ -349,7 +473,9 @@ def main():
     parser.add_argument("--yt-api-key", help="YouTube Data API v3 key")
     parser.add_argument("--anthropic-key", help="Anthropic API key for Layer 3 AI classification")
     parser.add_argument("--deep", action="store_true",
-                        help="Enable Layer 2: pull captions for ambiguous videos via yt-dlp")
+                        help="Enable Layer 2: pull captions for clickbait-titled videos via yt-dlp")
+    parser.add_argument("--deep-all", action="store_true",
+                        help="Layer 2 on ALL non-horror videos (slow but catches everything)")
     parser.add_argument("--channel", default="https://www.youtube.com/@hollowpoiint")
     parser.add_argument("--resume", help="Resume from a previous horror_games_data.json")
     args = parser.parse_args()
@@ -357,8 +483,10 @@ def main():
     print("=" * 60)
     print("  HollowPoiint Horror Games Scraper")
     print("  Layer 1: Keyword matching (title + description)")
-    if args.deep:
+    if args.deep or args.deep_all:
         print("  Layer 2: Caption analysis (yt-dlp auto-subs)")
+        if args.deep_all:
+            print("           (scanning ALL videos, not just clickbait)")
     if args.anthropic_key:
         print("  Layer 3: AI classification (Claude Haiku)")
     print("=" * 60)
@@ -410,25 +538,35 @@ def main():
     print(f"  Non-horror: {len(non_horror)}")
 
     # --- Layer 2: Caption analysis ---
-    if args.deep and maybe_horror:
+    # --deep-all: also scan non-horror videos for hidden horror content
+    if args.deep_all:
+        maybe_horror.extend(non_horror)
+        print(f"\n  --deep-all: added {len(non_horror)} non-horror videos to scan queue")
+
+    if (args.deep or args.deep_all) and maybe_horror:
         print(f"\n--- Layer 2: Analyzing captions for {len(maybe_horror)} ambiguous videos ---")
-        print("  (requires yt-dlp: pip install yt-dlp)")
+        print("  (requires yt-dlp: pip install yt-dlp)\n")
+
+        layer2_confirmed = 0
+        layer2_deep = 0
+        layer2_nocaps = 0
 
         for i, vid in enumerate(maybe_horror):
-            print(f"  [{i+1}/{len(maybe_horror)}] {vid['title'][:60]}...")
+            print(f"  [{i+1}/{len(maybe_horror)}] {vid['title'][:70]}...")
             captions = fetch_captions(vid["id"])
 
             if captions:
-                # Check captions for horror keywords
+                # Step A: Check captions for horror game keywords
                 cap_kws = find_horror_keywords(captions[:5000])
                 if cap_kws:
                     vid["horror_keywords"] = cap_kws
                     vid["detection"] = "layer2_captions"
                     horror_videos.append(vid)
+                    layer2_confirmed += 1
                     print(f"    -> HORROR (caption keywords: {', '.join(cap_kws[:3])})")
                     continue
 
-                # Try to extract game name from captions
+                # Step B: Try to extract game name from captions
                 game = analyze_captions_for_game(captions, vid["title"])
                 if game:
                     vid["caption_game_guess"] = game
@@ -437,22 +575,44 @@ def main():
                         vid["horror_keywords"] = game_kws
                         vid["detection"] = "layer2_game_name"
                         horror_videos.append(vid)
-                        print(f"    -> HORROR (game: {game})")
+                        layer2_confirmed += 1
+                        print(f"    -> HORROR (game identified: {game})")
                         continue
+                    else:
+                        # We found a game name but couldn't confirm it's horror
+                        vid["caption_game_guess"] = game
+                        vid["detection"] = "layer2_game_found_unconfirmed"
+                        print(f"    -> Game found: '{game}' (not confirmed horror)")
+
+                # Step C: Deep caption analysis - check for horror atmosphere
+                is_horror, speech_matches = analyze_captions_deep(captions, vid["title"])
+                if is_horror:
+                    vid["horror_keywords"] = speech_matches[:5]
+                    vid["detection"] = "layer2_deep_analysis"
+                    horror_videos.append(vid)
+                    layer2_deep += 1
+                    print(f"    -> HORROR (speech analysis: {', '.join(speech_matches[:3])})")
+                    continue
 
                 vid["_captions_checked"] = True
                 print(f"    -> Not confirmed as horror")
             else:
+                layer2_nocaps += 1
                 print(f"    -> No captions available")
 
-            # Rate limit to be polite
+            # Rate limit to be polite to YouTube
             if (i + 1) % 10 == 0:
                 time.sleep(1)
 
-        print(f"\n  After Layer 2: {len(horror_videos)} horror videos confirmed")
+        print(f"\n  Layer 2 results:")
+        print(f"    Confirmed by keywords/game name: {layer2_confirmed}")
+        print(f"    Confirmed by speech analysis:    {layer2_deep}")
+        print(f"    No captions available:           {layer2_nocaps}")
+        print(f"    Total horror videos now:         {len(horror_videos)}")
 
     # --- Layer 3: AI classification ---
-    unclassified = [v for v in maybe_horror if v.get("detection") == "layer2_candidate"]
+    unclassified = [v for v in maybe_horror if v.get("detection") in
+                    ("layer2_candidate", "layer2_game_found_unconfirmed")]
     if args.anthropic_key and unclassified:
         print(f"\n--- Layer 3: AI classifying {len(unclassified)} remaining videos ---")
         print("  Using Claude Haiku (fast + cheap)")
@@ -461,7 +621,7 @@ def main():
             print(f"  [{i+1}/{len(unclassified)}] {vid['title'][:60]}...")
 
             captions = None
-            if args.deep:
+            if args.deep or args.deep_all:
                 captions = fetch_captions(vid["id"])
 
             result = classify_with_claude(vid, captions, args.anthropic_key)
@@ -504,7 +664,7 @@ def main():
     l2 = sum(1 for v in horror_videos if v.get("detection", "").startswith("layer2"))
     l3 = sum(1 for v in horror_videos if v.get("detection") == "layer3_ai")
     print(f"\n  Layer 1 (keywords):  {l1} videos")
-    if args.deep:
+    if args.deep or args.deep_all:
         print(f"  Layer 2 (captions):  {l2} videos")
     if args.anthropic_key:
         print(f"  Layer 3 (AI):        {l3} videos")
