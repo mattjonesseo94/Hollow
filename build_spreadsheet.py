@@ -149,8 +149,11 @@ def classify_aaa_indie(details):
     if not details:
         return "Unknown"
 
-    publishers = [p.get("publisher", "").lower() for p in details.get("publishers", [])]
-    developers = [d.get("developer", "").lower() for d in details.get("developers", [])]
+    publishers_raw = details.get("publishers", [])
+    developers_raw = details.get("developers", [])
+    # Steam returns these as list of strings (not dicts)
+    publishers = [p.lower() if isinstance(p, str) else p.get("publisher", "").lower() for p in publishers_raw]
+    developers = [d.lower() if isinstance(d, str) else d.get("developer", "").lower() for d in developers_raw]
 
     # Check publishers first
     for pub in publishers:
